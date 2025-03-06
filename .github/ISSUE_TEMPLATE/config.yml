@@ -1,64 +1,73 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: 📝 Reportar un Issue
+description: Reporta un error o sugiere una mejora en los materiales del curso.
+title: "[ISSUE] Breve descripción del problema"
+labels: ["bug", "enhancement"]
 assignees:
-  - octocat
+  - tu-usuario-github
+
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+      value: "Gracias por tomarte el tiempo de ayudarnos a mejorar este curso. Completa la siguiente información para que podamos entender mejor tu solicitud."
+
+  - type: textarea
+    id: descripcion
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: "📋 Descripción del Problema o Mejora"
+      description: "¿Qué problema encontraste o qué mejora propones? Explica de forma clara y breve."
+      placeholder: "Describe el problema o la mejora aquí..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: ubicacion
+    attributes:
+      label: "📖 Ubicación en el Curso"
+      description: "¿Dónde ocurre el problema?"
+      options:
+        - label: "Jupyter Notebook 📓"
+        - label: "Archivo Markdown 📄"
+        - label: "Otro (especificar en la sección de información adicional)"
+
+  - type: input
+    id: archivo
+    attributes:
+      label: "📌 Nombre del archivo o notebook"
+      placeholder: "Ejemplo: notebooks/tema1.ipynb"
+
+  - type: input
+    id: seccion
+    attributes:
+      label: "📌 Sección o celda específica (si aplica)"
+      placeholder: "Ejemplo: Celda 12 - Explicación de funciones"
+
+  - type: textarea
+    id: comportamiento
+    attributes:
+      label: "✅ Comportamiento Esperado"
+      description: "Describe cómo debería funcionar correctamente."
+      placeholder: "El código debería devolver X, pero devuelve Y..."
     validations:
       required: false
+
   - type: textarea
-    id: what-happened
+    id: evidencia
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: "🔍 Evidencia (Opcional)"
+      description: "Adjunta capturas de pantalla o fragmentos de código relevantes."
+      placeholder: "Puedes arrastrar imágenes o pegar código aquí..."
     validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      required: false
+
   - type: textarea
-    id: logs
+    id: informacion_adicional
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: "🖥️ Información Adicional (Opcional)"
+      description: "Si el problema depende del entorno, indica la versión de Jupyter/Colab y cualquier otro detalle relevante."
+      placeholder: "Ejemplo: Google Colab - Python 3.9"
+    validations:
+      required: false
+
+  - type: markdown
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      value: "💡 **¿Quieres ayudar a solucionar este problema?** Si tienes una propuesta de solución, abre un [Pull Request](https://github.com/tu-repo/pulls) con los cambios sugeridos. ¡Tu aporte es bienvenido! 🚀"
