@@ -2,87 +2,62 @@
 
 ![example workflow](https://github.com/fralfaro/MAT281/actions/workflows/documentation.yml/badge.svg)
 <a href="https://fralfaro.github.io/MAT281"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📖 docs-link-brightgreen"></a>
+<a href="https://sethnut.com/talks/uc_2024/presentacion.html"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📽️talk-link-blue"></a>
 [![DOI](https://zenodo.org/badge/944081310.svg)](https://doi.org/10.5281/zenodo.14984123)
 
 
-## Descripción de la Asignatura
+## 🎯 Objetivo de la Asignatura
 
-La asignatura tiene como objetivo proporcionar a
-los estudiantes las competencias y destrezas básicas necesarias
-para desempeñarse como Data Scientist utilizando el lenguaje de 
-programación Python.
+Este curso proporciona las habilidades esenciales para desempeñarse como **Data Scientist** utilizando **Python**. Se abordarán desde la manipulación de datos hasta la implementación de modelos de **Machine Learning**, con un enfoque práctico y aplicado.  
 
-## Requisitos de entrada
-
-* Fundamentos de Cálculo y Álgebra.
-* Conceptos básicos de Probabilidad y Estadística.
-* Conocimientos en Optimización.
-* Familiaridad con el lenguaje de programación Python.
-
-## Contenidos temáticos
-
-El curso se organiza en torno a los siguientes temas principales:
-
-* **Toolkit Básico**: Introducción a las herramientas esenciales para el análisis de datos.
-* **Manipulación de Datos**: Técnicas para la manipulación eficiente de conjuntos de datos.
-* **Visualización**: Métodos para visualizar datos de manera efectiva.
-* **Machine Learning**: Introducción a los conceptos básicos y aplicaciones del aprendizaje automático.
+> 🔗 Para obtener una visión general y detallada del curso, consulta la siguiente presentación:  [link](https://sethnut.com/talks/uc_2024/presentacion.html)
 
 
-## Recursos para el Aprendizaje
 
-### 1. **Textos Guía Principales**
-Estos textos son esenciales para desarrollar una comprensión sólida de la ciencia de datos y el aprendizaje automático utilizando Python:
+## 🔑 Requisitos de entrada 
 
-- **Python Data Science Handbook** por *Jake VanderPlas*: Un recurso integral que cubre desde las bases de Python hasta técnicas avanzadas de ciencia de datos, con un enfoque práctico utilizando librerías como NumPy, Pandas, Matplotlib, Scikit-Learn, entre otras.
+- **Cálculo y Álgebra** – Principios fundamentales.  
+- **Probabilidad y Estadística** – Conceptos básicos.  
+- **Optimización** – Métodos esenciales.  
+- **Python** – Familiaridad con su sintaxis y estructuras básicas.  
 
-### 2. **Lecturas Complementarias**
-Estos libros ofrecen una profundización en áreas específicas y son recomendados para aquellos que desean ampliar su conocimiento más allá de los conceptos básicos:
+## 📚 Contenidos temáticos
 
-- **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** por *Aurélien Géron*: Una guía práctica para el aprendizaje automático utilizando herramientas poderosas como Scikit-Learn, Keras y TensorFlow. Ideal para quienes quieren aplicar técnicas de machine learning a proyectos reales.
+- **Toolkit Básico** – Herramientas esenciales para análisis de datos.  
+- **Manipulación de Datos** – Técnicas eficientes con **Pandas y NumPy**.  
+- **Visualización** – Creación de gráficos con **Matplotlib y Seaborn**.  
+- **Machine Learning** – Introducción a algoritmos clave con **Scikit-Learn**.  
+
+## 📂 Recursos de Aprendizaje 
+
+**Textos Guía Principales**: 
+
+- *Python Data Science Handbook* – **Jake VanderPlas**  
+  _Un manual completo sobre Python para ciencia de datos, cubriendo NumPy, Pandas, Matplotlib y Scikit-Learn._  
+
+**Lecturas Complementarias**:
+
+- *Hands-On Machine Learning* – **Aurélien Géron**  
+- *Data Science from Scratch* – **Joel Grus**  
+- *Python for Data Analysis* – **Wes McKinney**  
+
+**Repositorios de GitHub**:
   
-- **Data Science from Scratch** por *Joel Grus*: Este libro es excelente para aquellos que prefieren aprender los fundamentos de la ciencia de datos desde cero, sin depender de bibliotecas, lo que permite un entendimiento más profundo de los algoritmos.
-
-- **Python for Data Analysis** por *Wes McKinney*: Escrito por el creador de Pandas, este libro es una referencia obligatoria para cualquiera que quiera dominar la manipulación y el análisis de datos en Python.
-
-### 3. **Repositorios**
-Estos repositorios de GitHub contienen material práctico y ejemplos que complementan los textos y permiten poner en práctica lo aprendido:
-
-- **[python_intro](https://github.com/fralfaro/python_intro)**: Un curso introductorio de Python que cubre los conceptos básicos de programación y los fundamentos del lenguaje.
-  
-- **[python_eda](https://github.com/fralfaro/python_eda)**: Un curso enfocado en la manipulación y análisis exploratorio de datos (EDA) en Python, utilizando librerías como Pandas y Matplotlib.
-
-- **[python_ml](https://github.com/fralfaro/python_ml)**: Un curso sobre aprendizaje automático (machine learning) en Python, que abarca desde los algoritmos más simples hasta técnicas más avanzadas.
+- [python_intro](https://github.com/fralfaro/python_intro) – Introducción a Python.
+- [python_eda](https://github.com/fralfaro/python_eda) – Exploración de datos en Python.  
+- [python_ml](https://github.com/fralfaro/python_ml) – Machine Learning en Python.  
 
 
-## Evaluación
 
-### Laboratorios 
-- Semanal.
-- Individual.
-- Notas: 0, 25, 50, 75, 100.
-- Plazo: final del día de clases.
-- Entregas fuera del plazo tienen nota cero (0).  
-    
+## 💯 Evaluación
 
-### Tareas 
-- Mensual.
-- Individual.
-- Plazo:
-  - $T_1$: xx de Septiembre 20XX.
-  - $T_2$: xx de Noviembre 20XX.
-- Entregas fuera del plazo descuentan 25 puntos por día (parte entera). 
-    - Por ejemplo, un retraso de 15 minutos cuenta como un día y descuenta 25 puntos.  
-      
+ Tipo   | Frecuencia  | Modalidad  | Entrega | Penalización|
+|---------------------|------------|------------|------------------|--------------------------|
+| **Laboratorios**   | Semanal    | Individual | Final de clases | nota 0 |
+| **Tareas**         | Mensual    | Individual | *T1*: dd-mm-yyyy<br>*T2*: dd-mm-yyyy | -25 puntos   |
+| **Proyecto** | Semestral  | Grupal | dd-mm-yyyy | -25 puntos  |
 
-### Proyecto 
-- Semestral.
-- Plazo: final del curso (xx de Diciembre 20XX).
-- Grupal: máximo 4 integrantes.
-- Entregas fuera del plazo descuentan 25 puntos por día (parte entera).  
-
-### Nota Final
-
+📌 **Nota Final:**
 La nota final será el promedio ponderado
 entre los laboratorios, tareas y el proyecto final del curso.
 
