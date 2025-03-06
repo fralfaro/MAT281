@@ -1,0 +1,153 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: MAT281 - Matemáticas Aplicadas
+site_url: https://github.com/fralfaro/MAT281_2024
+site_author: Francisco Alfaro
+site_description:
+
+# Repository
+repo_name: fralfaro/MAT281_2024
+repo_url: https://github.com/fralfaro/MAT281_2024
+edit_uri: ''
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - neoteroi.cards
+  - neoteroi.timeline
+  - neoteroi.projects
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - css/neoteroi-mkdocs.css
+
+# Theme
+theme:
+  name: material
+  language: es
+  logo: images/usm.png
+  favicon: images/usm.png
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: black
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - navigation.indexes
+  - content.tooltips
+  - navigation.path
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  - navigation.tabs
+  - navigation.footer
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fralfaro
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/fralfaro
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/faam/
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/faamds
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@fralfaro
+    - icon: fontawesome/solid/globe
+      link: https://fralfaro.github.io/portfolio/
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+
+#TOC
+nav:
+    - 🏠 Home:
+        - index.md
+        - mat281_01.md
+        - mat281_02.md
+    - 🛠️ Toolkit:
+        - lectures/toolkit/bt_intro.md
+        - Ecosistema Git:
+            - lectures/toolkit/git.md
+            - lectures/toolkit/github.md
+        - Ecosistema Python:
+            - lectures/toolkit/markdown.md
+            - lectures/toolkit/python.ipynb
+            - lectures/toolkit/google_colab.ipynb
+    - 📝 Data Manipulation:
+        - lectures/data_manipulation/data_intro.md
+        - lectures/data_manipulation/sc_01.ipynb
+        - lectures/data_manipulation/pd_01a.ipynb
+        - lectures/data_manipulation/pd_01b.ipynb
+        - lectures/data_manipulation/eda_01.ipynb
+    - 📊 Visualization:
+        - lectures/visualization/vis_intro.md
+        - lectures/visualization/vis_01.ipynb
+        - lectures/visualization/vis_02.ipynb
+    - 🤖 Machine Learning:
+        - lectures/machine_learning/01_intro.ipynb
+        - lectures/machine_learning/basic_01.ipynb
+        - lectures/machine_learning/reg_01.ipynb
+        - lectures/machine_learning/reg_02.ipynb
+        - lectures/machine_learning/cla_01.ipynb
+        - lectures/machine_learning/ns_01.ipynb
+        - lectures/machine_learning/ns_02.ipynb
+        - lectures/machine_learning/over_01.ipynb
+        - lectures/machine_learning/over_02.ipynb
+        - lectures/machine_learning/ts_01.ipynb
+    - ✅ Evaluations:
+        - evaluation.md
+        - Laboratorios:
+            - Lab 01: labs/lab_01.ipynb
+            - Lab 02: labs/lab_02.ipynb
+            - Lab 031: labs/lab_031.ipynb
+            - Lab 032: labs/lab_032.ipynb
+            - Lab 04: labs/lab_04.ipynb
+            - Lab 05: labs/lab_05.ipynb
+            - Lab 06: labs/lab_06.ipynb
+            - Lab 071: labs/lab_071.ipynb
+            - Lab 072: labs/lab_072.ipynb
+            - Lab 08: labs/lab_08.ipynb
+            - Lab 09: labs/lab_09.ipynb
+        - Tareas:
+            - Tarea 01: homeworks/hw_01.ipynb
+            - Tarea 02: homeworks/hw_02.ipynb
+        - Proyecto:
+            - projects/project_definition.md
+
+
+
+
+
+
+
