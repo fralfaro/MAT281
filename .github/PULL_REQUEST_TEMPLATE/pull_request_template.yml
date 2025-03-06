@@ -1,0 +1,64 @@
+name: "🚀 Pull Request"
+description: "Propuesta de mejora o corrección en los materiales del curso MAT281."
+
+body:
+  - type: markdown
+    attributes:
+      value: "¡Gracias por contribuir al curso MAT281! Para facilitar la revisión, completa esta información."
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: "📋 Descripción de los Cambios"
+      description: "Explica qué corregiste o mejoraste."
+      placeholder: "Ejemplo: Corrección de errores en el Notebook X, mejora en la documentación..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tipo_cambio
+    attributes:
+      label: "📖 Tipo de Cambio"
+      options:
+        - label: "🐛 Corrección de errores (bug fix)"
+        - label: "📖 Mejora en la documentación"
+        - label: "📚 Nuevo contenido"
+        - label: "🔄 Otro (especificar en comentarios)"
+
+  - type: checkboxes
+    id: archivos_modificados
+    attributes:
+      label: "📖 Archivos Modificados"
+      options:
+        - label: "📓 Jupyter Notebook"
+        - label: "📄 Archivo Markdown"
+        - label: "🔄 Otro (especificar en comentarios)"
+
+  - type: input
+    id: archivo
+    attributes:
+      label: "📌 Nombre del archivo(s) modificado(s)"
+      placeholder: "Ejemplo: notebooks/tema1.ipynb"
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "✅ Checklist antes de enviar"
+      options:
+        - label: "El contenido sigue el formato del curso."
+        - label: "Revisé la ortografía y formato en los archivos modificados."
+        - label: "Probé los cambios en Jupyter Notebook (si aplica)."
+        - label: "No hay errores en la visualización del contenido."
+
+  - type: textarea
+    id: informacion_adicional
+    attributes:
+      label: "📌 Información Adicional (Opcional)"
+      description: "Notas, referencias o comentarios adicionales."
+      placeholder: "Ejemplo: Referencias usadas, comentarios extra..."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "📌 **Nota:** Una vez aprobado, este PR será fusionado. Si necesitas hacer cambios urgentes, coméntalo en la descripción."
