@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📌 Pregunta o Problema"
+    about: "Si tienes dudas sobre el curso o encontraste un problema en los materiales, revisa o abre una discusión aquí."
+    url: https://github.com/fralfaro/MAT281/discussions/categories/questions
+  - name: "🚀 Sugerencias de Mejora"
+    about: "¿Tienes ideas para mejorar el curso? Comparte tus sugerencias aquí."
+    url: https://github.com/fralfaro/MAT281/discussions/categories/feature-requests
+  - name: "🔒 Reporte de Seguridad"
+    about: "Si detectaste un problema de seguridad, envía un mensaje a francisco.alfaro.496@gmail.com"
