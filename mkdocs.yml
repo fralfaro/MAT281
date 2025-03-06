@@ -1,14 +1,11 @@
-# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
-
 # Project information
 site_name: MAT281 - Matemáticas Aplicadas
-site_url: https://github.com/fralfaro/MAT281_2024
+site_url: https://github.com/fralfaro/MAT281
 site_author: Francisco Alfaro
-site_description:
 
 # Repository
-repo_name: fralfaro/MAT281_2024
-repo_url: https://github.com/fralfaro/MAT281_2024
+repo_name: fralfaro/MAT281
+repo_url: https://github.com/fralfaro/MAT281
 edit_uri: ''
 
 # Markdown extensions

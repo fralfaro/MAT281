@@ -2,8 +2,8 @@
 
 ![example workflow](https://github.com/fralfaro/MAT281/actions/workflows/documentation.yml/badge.svg)
 <a href="https://fralfaro.github.io/MAT281"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📖 docs-link-brightgreen"></a>
-<a href="https://drive.google.com/drive/folders/1Z0UpDZgEVE0ElrDkc9u8l52nZuxuBcTA"><img alt="Link a la Documentación" src="https://img.shields.io/badge/💿 clases-link-brightgreen"></a>
-<a href="https://drive.google.com/drive/folders/1Zj3OMAF-sKCjbimDjMpadKv0L1Kilwis"><img alt="Link a la Documentación" src="https://img.shields.io/badge/💯 notas-link-brightgreen"></a>
+[![DOI](https://zenodo.org/badge/944081310.svg)](https://doi.org/10.5281/zenodo.14984123)
+
 
 ## Descripción de la Asignatura
 
@@ -69,15 +69,15 @@ Estos repositorios de GitHub contienen material práctico y ejemplos que complem
 - Mensual.
 - Individual.
 - Plazo:
-  - $T_1$: 30 de Septiembre 2024.
-  - $T_2$: 25 de Noviembre 2024.
+  - $T_1$: xx de Septiembre 20XX.
+  - $T_2$: xx de Noviembre 20XX.
 - Entregas fuera del plazo descuentan 25 puntos por día (parte entera). 
     - Por ejemplo, un retraso de 15 minutos cuenta como un día y descuenta 25 puntos.  
       
 
 ### Proyecto 
 - Semestral.
-- Plazo: final del curso (05 de Diciembre 2024).
+- Plazo: final del curso (xx de Diciembre 20XX).
 - Grupal: máximo 4 integrantes.
 - Entregas fuera del plazo descuentan 25 puntos por día (parte entera).  
 

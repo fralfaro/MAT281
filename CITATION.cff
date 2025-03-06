@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Si usas este curso en tu investigación o trabajo, por favor cítalo como sigue:"
+title: "MAT281 - Matemáticas Aplicadas"
+authors:
+  - family-names: "Alfaro"
+    given-names: "Francisco"
+    orcid: "https://orcid.org/0009-0003-7255-466X"
+date-released: "2025-03-06"
+version: "1.0.0"
+doi: "10.5281/zenodo.14984124"
+url: "https://github.com/fralfaro/MAT281"
+license: "MIT"
