@@ -1,0 +1,73 @@
+name: 📝 Reportar un Issue
+description: Reporta un error o sugiere una mejora en los materiales del curso.
+title: "[ISSUE] Breve descripción del problema"
+labels: ["bug", "enhancement"]
+assignees:
+  - tu-usuario-github
+
+body:
+  - type: markdown
+    attributes:
+      value: "Gracias por tomarte el tiempo de ayudarnos a mejorar este curso. Completa la siguiente información para que podamos entender mejor tu solicitud."
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: "📋 Descripción del Problema o Mejora"
+      description: "¿Qué problema encontraste o qué mejora propones? Explica de forma clara y breve."
+      placeholder: "Describe el problema o la mejora aquí..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: ubicacion
+    attributes:
+      label: "📖 Ubicación en el Curso"
+      description: "¿Dónde ocurre el problema?"
+      options:
+        - label: "Jupyter Notebook 📓"
+        - label: "Archivo Markdown 📄"
+        - label: "Otro (especificar en la sección de información adicional)"
+
+  - type: input
+    id: archivo
+    attributes:
+      label: "📌 Nombre del archivo o notebook"
+      placeholder: "Ejemplo: notebooks/tema1.ipynb"
+
+  - type: input
+    id: seccion
+    attributes:
+      label: "📌 Sección o celda específica (si aplica)"
+      placeholder: "Ejemplo: Celda 12 - Explicación de funciones"
+
+  - type: textarea
+    id: comportamiento
+    attributes:
+      label: "✅ Comportamiento Esperado"
+      description: "Describe cómo debería funcionar correctamente."
+      placeholder: "El código debería devolver X, pero devuelve Y..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: "🔍 Evidencia (Opcional)"
+      description: "Adjunta capturas de pantalla o fragmentos de código relevantes."
+      placeholder: "Puedes arrastrar imágenes o pegar código aquí..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: informacion_adicional
+    attributes:
+      label: "🖥️ Información Adicional (Opcional)"
+      description: "Si el problema depende del entorno, indica la versión de Jupyter/Colab y cualquier otro detalle relevante."
+      placeholder: "Ejemplo: Google Colab - Python 3.9"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "💡 **¿Quieres ayudar a solucionar este problema?** Si tienes una propuesta de solución, abre un [Pull Request](https://github.com/tu-repo/pulls) con los cambios sugeridos. ¡Tu aporte es bienvenido! 🚀"
