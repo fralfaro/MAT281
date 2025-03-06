@@ -1,28 +1,35 @@
 # 🚀 Pull Request
 
-Gracias por contribuir a este curso. Por favor, completa la siguiente información para que podamos revisar tu propuesta de la mejor manera.
+¡Gracias por contribuir a este curso! Para facilitar la revisión, por favor completa la siguiente información:
 
 ## 📋 Descripción de los Cambios
-_Describe qué cambios realizaste en el repositorio y por qué._
+🔹 **¿Qué cambios realizaste?**  
+_Describe de manera breve qué corregiste o mejoraste._
 
-## 🔍 Tipo de Cambio
-Marca con una "✔" lo que aplique:
-
-- [ ] Corrección de un bug 🐛
-- [ ] Nueva funcionalidad 🚀
+📌 **Tipo de cambio**:
+- [ ] Corrección de errores (bug fix) 🐛
 - [ ] Mejora en la documentación 📖
-- [ ] Otro (especificar): 
+- [ ] Nuevo contenido 📚
+- [ ] Otro (especificar): _______
 
-## 📝 Checklist
+## 📖 Archivos Modificados
+🔹 **Lista de archivos actualizados** (marca los que aplican):
+- [ ] Jupyter Notebook 📓
+- [ ] Archivo Markdown 📄
+- [ ] Otro (especificar): _______
+
+📌 **Nombre del archivo(s) modificado(s)**:  
+
+## ✅ Checklist antes de enviar
 Antes de enviar este PR, asegúrate de que:
+- [ ] El contenido sigue el formato del curso.
+- [ ] Revisé la ortografía y formato en los archivos modificados.
+- [ ] Probé los cambios en Jupyter Notebook (si aplica).
+- [ ] No hay errores en la visualización del contenido.
 
-- [ ] He leído las **directrices de contribución**.
-- [ ] He comprobado que el código no tiene errores.
-- [ ] Mi contribución sigue el estilo del repositorio.
-- [ ] Agregué la documentación correspondiente (si aplica).
-
-## 📌 Información Adicional
-_Agrega aquí cualquier otro detalle relevante._
+## 📌 Información Adicional (Opcional)
+🔹 **Notas, referencias o comentarios adicionales**  
 
 <br>
-> 💡 **Nota:** Una vez aprobado, este pull request será fusionado al repositorio. ¡Gracias por tu aporte! 🚀
+
+> 💡 **Nota:** Una vez revisado, este PR será fusionado al curso. Si necesitas hacer cambios urgentes, coméntalo en la descripción. ¡Gracias por tu aporte! 🚀

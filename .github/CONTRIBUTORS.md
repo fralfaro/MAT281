@@ -1,23 +1,27 @@
 # 👥 Contribuidores
 
- Agradecemos a todos los alumnos, profesores y colaboradores que han apoyado este curso con su entusiasmo, compromiso y dedicación. Su participación ha sido fundamental para el éxito de esta iniciativa.
-
-**Lista de Contribuidores**:
-
-- [Sebastián Flores](https://github.com/sebastiandres)
-- [Alonso Ogueda](https://github.com/aoguedao)
-- [Eric Zepeda](https://github.com/Hysteric-Larva)
-- [Rodrigo Lecaros](https://www.linkedin.com/in/rodrigo-lecaros-04874926/)
-- [Sebastián Torres](https://www.linkedin.com/in/sebtorresle/)
-- [Alberto Rubio](https://www.linkedin.com/in/arubiosu/)
+Agradecemos a todos los colaboradores que han participado en este proyecto con su entusiasmo, compromiso y dedicación. Su apoyo ha sido fundamental para el crecimiento y éxito de esta iniciativa. 
 
 
-<br>
+## 🚀 Equipo Principal
+Estos son los miembros principales que han trabajado activamente en el desarrollo del curso:
 
-> 💡 **¿Quieres contribuir?** Si deseas formar parte de este proyecto, no dudes en abrir un _issue_ o un _pull request_. Cualquier aporte, ya sea una sugerencia, corrección o mejora, es bienvenido. ¡Tu ayuda hace la diferencia! 
+- [Sebastián Flores](https://github.com/sebastiandres) – Coordinador técnico
+- [Alonso Ogueda](https://github.com/aoguedao) – Desarrollo de contenido
+- [Eric Zepeda](https://github.com/Hysteric-Larva) – Soporte en código
+- [Rodrigo Lecaros](https://www.linkedin.com/in/rodrigo-lecaros-04874926/) – Mentor y revisor
+- [Sebastián Torres](https://www.linkedin.com/in/sebtorresle/) – Documentación y QA
+- [Alberto Rubio](https://www.linkedin.com/in/arubiosu/) – Diseño y UX
 
 
+## 💡 ¿Cómo convertirte en colaborador?
+¡Nos encantaría contar con tu ayuda! Puedes contribuir de varias formas:
 
+✅ Reportando errores o sugerencias en [GitHub Issues](https://github.com/fralfaro/MAT281/issues).  
+✅ Mejorando documentación o agregando ejemplos prácticos.  
+✅ Proponiendo nuevas funciones o mejoras.  
+
+> Para más detalles, revisa nuestra [Guía de Contribución](../CONTRIBUTING.md).
 
 
 

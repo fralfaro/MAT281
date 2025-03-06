@@ -1,28 +1,33 @@
-# 📋 Directrices de Contribución
+# 📋 Guía de Contribución
 
-Gracias por tu interés en contribuir a este curso. Para asegurarnos de que el proceso de colaboración sea fluido, sigue estas directrices:
+¡Gracias por tu interés en mejorar este curso! 🙌 Puedes contribuir de varias maneras:
 
-## 1. ¿Cómo contribuir?
-Puedes contribuir de diferentes maneras:
-- Reportando problemas o errores (_issues_).
-- Proponiendo mejoras en el material.
-- Corrigiendo errores en los apuntes o ejemplos.
-- Agregando contenido útil para los estudiantes.
+## 🚀 ¿Cómo ayudar?
+✅ **Reportando errores o sugerencias** en los materiales.  
+✅ **Corrigiendo errores en los notebooks o markdowns**.  
+✅ **Agregando nuevos ejemplos o explicaciones** para mejorar el aprendizaje.  
 
-## 2. Reglas para Issues
-- Antes de abrir un _issue_, revisa si alguien más ya ha reportado el problema.
-- Sé claro y específico al describir el problema o la sugerencia.
-- Si es un problema técnico, proporciona ejemplos o capturas de pantalla.
 
-## 3. Reglas para Pull Requests
-- Antes de enviar un PR, abre un _issue_ para discutir la mejora si es un cambio importante.
-- Asegúrate de que tu código/documentación sigue el formato y estilo del repositorio.
-- Explica los cambios realizados en la descripción del PR.
-- Verifica que no haya errores en el código antes de enviarlo.
+## 🔎 Reportar un problema (Issue)
+Si encuentras un error en el material o tienes una sugerencia, abre un **Issue** en GitHub con:
+1. 📌 **Título claro** describiendo el problema.  
+2. 📖 **Descripción detallada** del error o mejora.  
+3. 🖥️ **Ejemplo o captura** (si aplica).  
 
-## 4. Código de Conducta
-Todos los participantes deben ser respetuosos y mantener un ambiente colaborativo.
+Antes de abrir un Issue, revisa que no haya sido reportado antes.
 
-<br>
 
-> 💡 **¡Gracias por tu colaboración!** Si tienes dudas, abre un _issue_ o contáctanos. 🚀
+
+## ✍️ Hacer cambios (Pull Request)
+Si deseas corregir algo o mejorar el curso:
+1. 🍴 **Haz un fork** del repositorio.  
+2. 📝 **Edita el archivo** (Markdown o Jupyter Notebook).  
+3. ✅ **Guarda y revisa** que el contenido se vea bien.  
+4. 🔄 **Envía un Pull Request (PR)** con una breve explicación de los cambios.  
+
+No olvides seguir el formato del curso y revisar la ortografía. 🧐
+
+
+
+## 🤝 ¡Gracias por tu apoyo!
+Tu ayuda hace que este curso sea mejor para todos. Si tienes dudas, abre un **Issue** o deja un comentario en el PR. 🚀🎉
