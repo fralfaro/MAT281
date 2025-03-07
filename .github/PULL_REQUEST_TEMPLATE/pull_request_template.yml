@@ -1,6 +1,14 @@
 name: "🚀 Pull Request"
 description: "Propuesta de mejora o corrección en los materiales del curso MAT281."
 
+assignees:
+  - fralfaro
+
+reviewers:
+  - fralfaro
+
+labels: ["enhancement", "documentation", "bug"]
+
 body:
   - type: markdown
     attributes:
@@ -49,6 +57,8 @@ body:
         - label: "Revisé la ortografía y formato en los archivos modificados."
         - label: "Probé los cambios en Jupyter Notebook (si aplica)."
         - label: "No hay errores en la visualización del contenido."
+        - label: "Si hay código, probé su ejecución en el entorno adecuado."
+        - label: "Este PR no introduce errores en pruebas automatizadas."
 
   - type: textarea
     id: informacion_adicional
@@ -61,4 +71,8 @@ body:
 
   - type: markdown
     attributes:
-      value: "📌 **Nota:** Una vez aprobado, este PR será fusionado. Si necesitas hacer cambios urgentes, coméntalo en la descripción."
+      value: |
+        📌 **Nota:** 
+        - Si tu PR aún está en progreso, márcalo como **Draft**.
+        - Una vez aprobado, este PR será fusionado.
+        - Si necesitas hacer cambios urgentes, coméntalo en la descripción o etiqueta a un revisor.
