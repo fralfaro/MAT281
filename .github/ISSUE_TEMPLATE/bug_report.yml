@@ -1,0 +1,15 @@
+name: "🐞 Reporte de Bug"
+description: "Reporta errores en los materiales del curso MAT281."
+title: "[BUG] Descripción breve"
+labels: ["bug"]
+assignees:
+  - fralfaro
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: "📋 Descripción del problema"
+      description: "Explica de manera clara y breve el error encontrado."
+      placeholder: "Describe el problema aquí..."
+    validations:
+      required: true

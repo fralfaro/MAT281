@@ -1,0 +1,15 @@
+name: "❓ Pregunta o Duda"
+description: "Haz una pregunta sobre el curso o su contenido."
+title: "[QUESTION] Pregunta breve"
+labels: ["question"]
+assignees:
+  - fralfaro
+body:
+  - type: textarea
+    id: pregunta
+    attributes:
+      label: "❓ Tu pregunta"
+      description: "Describe tu duda de la manera más clara posible."
+      placeholder: "Ejemplo: ¿Cómo se usa la librería X en el curso?"
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+name: "🚀 Solicitud de Mejora"
+description: "Sugiere una nueva característica o mejora."
+title: "[FEATURE] Descripción breve"
+labels: ["enhancement"]
+assignees:
+  - fralfaro
+body:
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: "✨ Propuesta de mejora"
+      description: "Describe la funcionalidad que te gustaría ver implementada."
+      placeholder: "Explica tu idea aquí..."
+    validations:
+      required: true
