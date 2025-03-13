@@ -3,12 +3,8 @@
 ![example workflow](https://github.com/fralfaro/MAT281/actions/workflows/documentation.yml/badge.svg)
 <a href="https://fralfaro.github.io/MAT281"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📖 docs-link-brightgreen"></a>
 <a href="https://sethnut.com/talks/uc_2024/presentacion.html"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📽️talk-link-blue"></a>
+[![Open in Dev Containers](https://img.shields.io/static/v1?style=flat-square&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/fralfaro/MAT281)
 [![DOI](https://zenodo.org/badge/944081310.svg)](https://doi.org/10.5281/zenodo.14984123)
-
-<!-- Badge para abrir en GitHub Codespaces/Dev Containers -->
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fralfaro/MAT281)
-[![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/fralfaro/MAT281)
-
 
 ## 🎯 Objetivo de la Asignatura
 
