@@ -1,0 +1,14 @@
+# Ciencia de datos
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+# Jupyter para notebooks
+jupyter
+ipykernel
+
+# Herramientas adicionales
+python-dotenv
+loguru
