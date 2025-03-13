@@ -3,11 +3,11 @@
 <img src="https://cdn-icons-png.flaticon.com/256/11232/11232292.png" width = "250" align="center"/>
 
 
-La visualización de datos es una herramienta poderosa en el campo de la 
+La visualización de datos es una herramienta poderosa en el campo de la
 ciencia de datos y el análisis de datos que permite representar información
-de manera gráfica y comprensible. A través de gráficos, diagramas 
+de manera gráfica y comprensible. A través de gráficos, diagramas
 y otras representaciones visuales, la visualización de datos ayuda a identificar patrones,
-tendencias y relaciones en los datos, facilitando la interpretación y 
+tendencias y relaciones en los datos, facilitando la interpretación y
 la toma de decisiones basadas en evidencia.
 
 ## Motivación
@@ -64,7 +64,7 @@ Gráfico que muestra los casos de cólera durante la epidemia en Londres de 1854
     into human cognitive centers”
     — Colin Ware, Information Visualization, 2004._
 
-### Cuarteto de ANSCOMBE 
+### Cuarteto de ANSCOMBE
 
 El **Cuarteto de Anscombe** es un conjunto de cuatro conjuntos de datos que tienen las mismas estadísticas descriptivas (medias, varianzas, correlaciones y regresiones), pero que se ven muy diferentes cuando se visualizan. Fueron presentados por el estadístico Francis Anscombe en 1973 para demostrar la importancia de la visualización en el análisis de datos.
 
@@ -101,7 +101,7 @@ Algunos de los conceptos y principios importantes en la teoría de visualizació
 
 ### Consejos generales
 
-**Noah Iliinsky** es un experto en visualización de datos y ha identificado cuatro pilares fundamentales de la visualización. 
+**Noah Iliinsky** es un experto en visualización de datos y ha identificado cuatro pilares fundamentales de la visualización.
 
 Estos pilares son:
 
@@ -198,6 +198,4 @@ Por otro lado, con tal de crear visualizaciones __interactivas__ aparecen librer
 
 - `bokeh` tiene como objetivo proporcionar gráficos versátiles, elegantes e incluso interactivos, teniendo una gran performance con grandes datasets o incluso streaming de datos.
 - `plotly` visualizaciones interactivas que en conjunto a `Dash` (de la misma empresa) permite crear aplicaciones webs, similar a `shiny` de `R`.
-- `D3.js` a pesar de estar basado en `javascript` se ha ganado un lugar en el corazón de toda la comunidad, debido a la ilimitada cantidad de visualizaciones que son posibles de hacer, por ejemplo, la [malla interactiva](https://mallas.labcomp.cl/) que hizo un estudiante de la UTFSM está hecha en `D3.js`. 
-
-
+- `D3.js` a pesar de estar basado en `javascript` se ha ganado un lugar en el corazón de toda la comunidad, debido a la ilimitada cantidad de visualizaciones que son posibles de hacer, por ejemplo, la [malla interactiva](https://mallas.labcomp.cl/) que hizo un estudiante de la UTFSM está hecha en `D3.js`.

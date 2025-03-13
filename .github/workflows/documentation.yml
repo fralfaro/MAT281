@@ -1,28 +1,39 @@
 name: CI
-on: [push]
+on: [push, pull_request]
+
 jobs:
   Pages:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.10.x]
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
+
+      - name: Install Poetry
         run: pip install poetry
-      - name: Activate venv
+
+      - name: Install Dependencies
         run: poetry install
-      - name: Build the book
+
+      - name: Run pre-commit checks
+        run: poetry run pre-commit run --all-files
+
+      - name: Run Pytest
+        run: poetry run pytest
+
+      - name: Build MkDocs
         run: poetry run mkdocs build --site-dir public
-      - name: GitHub Pages action
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-
-

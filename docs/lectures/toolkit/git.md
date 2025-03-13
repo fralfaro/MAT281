@@ -35,7 +35,7 @@ Para añadir los cambios que están en espera al repositorio escribes `git commi
 
 Para utilizar un solo comado y realizar el git add + git commit puedes utilizar el flag -a, de la siguiente manera `git commit -a -m ‘Mensaje que explique la función del commit’`.
 
-Si agregaste algún cambio al staging area pero quieres quitarlo de ahí puedes escribir 
+Si agregaste algún cambio al staging area pero quieres quitarlo de ahí puedes escribir
 `git reset HEAD archivo.txt`
 
 ## Ignorar y borrar archivos
@@ -45,7 +45,7 @@ En cada proyecto hay archivos que no deseas versionar ya sea por su peso o su fo
 
 Para borrar los cambio realizados en un archivo, en otras palabras regresar a su última versión guardada o si borraste por error un archivos que ya había sido enviado en un commit antes y quieres restaurarlo debes escribir en la línea de comandos `git checkout archivo.txt`, entonces git lo regresará a su última versión.
 
-Si lo que quieres es borrar un archivo del repositorio debes ejecutar el comando `git rm archivo.txt`, en el próximo commit el archivo será removido. 
+Si lo que quieres es borrar un archivo del repositorio debes ejecutar el comando `git rm archivo.txt`, en el próximo commit el archivo será removido.
 
 ## Usando ramas
 Con el comando `git log` puedes ver el historial de commits enviados al repositorio con los datos del usuario que los realizó, un ID único y el comentario de referencia que explica su función. Si lo que deseas es retroceder hasta una versión ‘x’, solo debes escribir en la terminal el siguiente comando `git checkout IdCommit` donde IdCommit son los primeros 7 caracteres del ID proporcionado en el log. Para crear una rama de desarrollo desde ese punto o desde donde te encuentras debes ejecutar `git checkout -b NombreRama`
@@ -60,12 +60,12 @@ En el caso de querer borrar una rama, ejecutas `git branch -D NombreRama` forzan
 
 ## Repositorio remoto
 
-GitHub es una de la posibilidades que tienes para crear tu repositorio de forma remota. Para ello debes crear un repositorio, darle un nombre y si quieres escribes una descripción. El comando que te permite asociar tu repositorio local (previamente inicializado) con el remoto es: 
+GitHub es una de la posibilidades que tienes para crear tu repositorio de forma remota. Para ello debes crear un repositorio, darle un nombre y si quieres escribes una descripción. El comando que te permite asociar tu repositorio local (previamente inicializado) con el remoto es:
 `git remote add origin https://github.com/nombre-usuario/nombre-repositorio.git`
 luego para subir el repositorio local ejecutas git push -u origin master, origin master es como se nombra a este repositorio remoto.
 
-Si lo que deseas es descargar tu repositorio en otro equipo puedes clonar tu repositorio remoto con el comando: 
-`git clone https://github.com/nombre-usuario/nombre-repositorio.git` 
+Si lo que deseas es descargar tu repositorio en otro equipo puedes clonar tu repositorio remoto con el comando:
+`git clone https://github.com/nombre-usuario/nombre-repositorio.git`
 
 Por último ya que alguien más del equipo de desarrollo pudo haber subido algún cambio, para no estar trabajando en una versión desactualizada debes bajar la última actualización de tu repositorio remoto a tu local, esto se hace con `git pull origin master`. Pull trae los cambio y push los envía.
 
@@ -99,8 +99,7 @@ Por último ya que alguien más del equipo de desarrollo pudo haber subido algú
 ## Referencias
 
 * [git para dummies](https://github.com/jiarcos/git-para-dummies)
-* [Git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html) 
-* [Te enseño git en 30 minutos](https://www.youtube.com/watch?v=QGKTdL7GG24) 
+* [Git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+* [Te enseño git en 30 minutos](https://www.youtube.com/watch?v=QGKTdL7GG24)
 * [Git: Subir un proyecto a Github](https://www.youtube.com/watch?v=RRegIKu-z3k)
 * [Curso gratis Devcode git y github](https://devcode.la/cursos/git/)
-    

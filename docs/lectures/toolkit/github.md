@@ -2,7 +2,7 @@
 
 > 🔑 **Nota**: Este tutorial se basa en el artículo publicado por **Platzi** - [Qué es GitHub y cómo usarlo para aprovechar sus beneficios](https://platzi.com/blog/que-es-github-como-funciona/).
 
-## Introducción 
+## Introducción
 
 **GitHub** es una plataforma de alojamiento, propiedad de Microsoft, que ofrece a los desarrolladores la posibilidad de crear repositorios de código y guardarlos en la nube de forma segura, usando un [sistema de control de versiones llamado Git](https://platzi.com/clases/1557-git-github/20215-que-es-git/).
 
@@ -29,20 +29,20 @@ Existe un gran número de razones que convierten a GitHub en una gran opción pa
 
 ## Cómo funciona GitHub
 
-GitHub te permite subir tus repositorios de código para que sean 
-almacenados en la nube a través del sistema de control de versiones de Git y 
-participar también en el desarrollo de proyectos de terceros, lo que significa 
-que cualquiera en el mundo que use GitHub puede encontrar tu código, aprender de él y, 
-por qué no, mejorarlo. Al igual que tú puedes acceder a los repositorios de código 
+GitHub te permite subir tus repositorios de código para que sean
+almacenados en la nube a través del sistema de control de versiones de Git y
+participar también en el desarrollo de proyectos de terceros, lo que significa
+que cualquiera en el mundo que use GitHub puede encontrar tu código, aprender de él y,
+por qué no, mejorarlo. Al igual que tú puedes acceder a los repositorios de código
 de otras personas.
 
 ## ¿Qué es el control de versiones?
 
-Se le llama control de versiones a la administración 
+Se le llama control de versiones a la administración
 de los cambios que se realizan sobre los elementos o la configuración
-de algún proyecto. En otras palabras, el control de versiones sirve para conocer 
-y autorizar los cambios que realicen los colaboradores en tu proyecto, guardando información 
-de qué incluyen los cambios y cuándo se hicieron. 
+de algún proyecto. En otras palabras, el control de versiones sirve para conocer
+y autorizar los cambios que realicen los colaboradores en tu proyecto, guardando información
+de qué incluyen los cambios y cuándo se hicieron.
 
 Este control comienza con una versión básica del documento y luego va
 guardando los cambios que se realicen a lo largo del proyecto.
@@ -52,7 +52,7 @@ El control de versiones es una herramienta valiosísima, pues con ella puedes
 
 ## ¿Qué es Git?
 
-Es el sistema de control de versiones más moderno y popular del mundo. 
+Es el sistema de control de versiones más moderno y popular del mundo.
 Fue creado por [Linus Torvalds](https://github.com/torvalds) para garantizar la eficiencia y confiabilidad del mantenimiento íntegro de versiones de un proyecto, aun cuando este tenga un gran número de archivos o _ramas_ en su código fuente.
 
 Git proporciona herramientas que facilitan el desarrollo del código entre un equipo de desarrolladores de manera rápida e inteligente. Además, podrás comparar los cambios realizados a lo largo del tiempo, ver quién modificó algo en el código del software y conocer en qué momento se introdujo un cambio que generó un error en tu proyecto, facilitando la opción de revertirlo.
@@ -79,13 +79,13 @@ Una vez que ya conocimos todo sobre GitHub y sus bondades, es hora de ponernos m
 Lo primero que debes tener es una cuenta creada en [GitHub](https://github.com/). Registrarse es gratuito. Una vez que tengas la cuenta, inicia sesión con tu usuario y clave. Luego, sigue estos pasos:
 
 *   En la esquina superior derecha de cualquier página, encontrarás un signo de **+** que sirve para realizar las acciones de la página. Das clic en el símbolo y creas un **nuevo repositorio** (new repository).
-    
+
 *   Una vez realizado eso, debes llenar los datos que se solicitan a continuación. Darle un nombre, que de preferencia debe ser claro, definir si será público o privado y colocar una pequeña descripción sobre tu repositorio. Este campo es opcional, pero te recomiendo que lo llenes para organizarte mejor y que los demás usuarios tengan una idea sobre lo que trata el repositorio que estás creando.
-    
+
 *   Activa el checkbox que dice iniciar tu repositorio con un **README**, este será tu primer archivo, la presentación de tu proyecto.
-    
+
 *   Presiona el botón de “crear repositorio” y listo. Ya tienes tu primer repositorio creado.
-    
+
 
 > 🔑 **Nota**: Conoce aquí una guía de [buenas prácticas para trabajar con GitHub](https://platzi.com/blog/buenas-practicas-git-y-github/).
 
@@ -111,14 +111,14 @@ Para realizar el commits de Github debes seguir los siguientes pasos:
 1.- Se debe verificar el estado de nuestro repositorio ejecutando el siguiente comando:
 ```
 git status
-```    
+```
 
 Una vez realizado el comando anterior, te aparecerá una lista con los archivos que fueron modificados y con los que están agregados al índice, listos para subir.
 
 2.-  Si aún existen archivos sin agregar al índice, debes ejecutar el siguiente comando:
 ```
 git add
-``` 
+```
 
 De esta forma se añaden todos los cambios pendientes.
 
@@ -126,7 +126,7 @@ De esta forma se añaden todos los cambios pendientes.
 ```
 git commit -m "Un comentario de los cambios realizados"
 ```
-    
+
 
 Es importante que en este paso agregues una descripción clara, esta se guardará en el historial y podremos entender mejor los cambios más adelante. Cuando no se describen bien los cambios que se realizaron, volver a reparar un bug (error) puede ser una pesadilla.
 
@@ -151,4 +151,3 @@ Los pasos que debes seguir son los siguientes:
 6.  Vuelve a la página de tu fork en Github
 7.  Presiona el botón Solicitud de Extracción (pull request)
 8.  Dale un nombre a tu solicitud de extracción, colocando los detalles de los cambios que realizaste y finalmente presiona el botón **enviar**. ¡Felicitaciones! Has colaborado oficialmente con un proyecto y tu solicitud será agregada si el administrador del proyecto la considera adecuada.
-

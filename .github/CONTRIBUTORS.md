@@ -1,6 +1,6 @@
 # 👥 Contribuidores
 
-Agradecemos a todos los colaboradores que han participado en este proyecto con su entusiasmo, compromiso y dedicación. Su apoyo ha sido fundamental para el crecimiento y éxito de esta iniciativa. 
+Agradecemos a todos los colaboradores que han participado en este proyecto con su entusiasmo, compromiso y dedicación. Su apoyo ha sido fundamental para el crecimiento y éxito de esta iniciativa.
 
 
 ## 🚀 Equipo Principal
@@ -17,11 +17,8 @@ Estos son los miembros principales que han trabajado activamente en el desarroll
 ## 💡 ¿Cómo convertirte en colaborador?
 ¡Nos encantaría contar con tu ayuda! Puedes contribuir de varias formas:
 
-✅ Reportando errores o sugerencias en [GitHub Issues](https://github.com/fralfaro/MAT281/issues).  
-✅ Mejorando documentación o agregando ejemplos prácticos.  
-✅ Proponiendo nuevas funciones o mejoras.  
+✅ Reportando errores o sugerencias en [GitHub Issues](https://github.com/fralfaro/MAT281/issues).
+✅ Mejorando documentación o agregando ejemplos prácticos.
+✅ Proponiendo nuevas funciones o mejoras.
 
 > Para más detalles, revisa nuestra [Guía de Contribución](../CONTRIBUTING.md).
-
-
-

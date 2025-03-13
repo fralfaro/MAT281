@@ -3,12 +3,12 @@
 <img src="https://cdn-icons-png.flaticon.com/512/6999/6999382.png" width = "250" align="center"/>
 
 
-La manipulación de datos es una habilidad fundamental en el campo 
-de la ciencia de datos y el análisis de datos. Consiste en la transformación, 
+La manipulación de datos es una habilidad fundamental en el campo
+de la ciencia de datos y el análisis de datos. Consiste en la transformación,
 limpieza y preparación de conjuntos de datos para su análisis y visualización.
 
-A medida que el volumen de datos generados continúa creciendo exponencialmente 
-en la era digital, la capacidad de manejar eficientemente estos datos se vuelve 
+A medida que el volumen de datos generados continúa creciendo exponencialmente
+en la era digital, la capacidad de manejar eficientemente estos datos se vuelve
 cada vez más crucial.
 
 ## ¿Qué es la Manipulación de Datos?
@@ -21,9 +21,9 @@ con datos de manera efectiva. Esto incluye la limpieza de datos, donde se identi
 Existen varias herramientas y lenguajes de programación diseñados específicamente para la manipulación de datos. Algunas de las herramientas más populares incluyen:
 
 - **Python**: Con bibliotecas como Pandas y NumPy, Python es ampliamente utilizado en la manipulación y análisis de datos debido a su facilidad de uso y su amplia gama de funcionalidades.
-  
+
 - **R**: Especialmente popular entre los estadísticos y analistas de datos, R ofrece una amplia variedad de paquetes para la manipulación y análisis de datos, incluyendo dplyr y tidyr.
-  
+
 - **SQL**: El lenguaje de consulta estructurado se utiliza para manipular datos almacenados en bases de datos relacionales, permitiendo realizar consultas, actualizaciones y modificaciones en los datos.
 
 ## Tipos de Procesos
@@ -45,13 +45,9 @@ El proceso de manipulación de datos generalmente sigue una serie de pasos comun
 ## Importancia
 
 La manipulación de datos es un paso fundamental en el proceso de
-análisis de datos, ya que la calidad y la integridad de los datos influyen directamente 
-en la calidad de los resultados del análisis. 
+análisis de datos, ya que la calidad y la integridad de los datos influyen directamente
+en la calidad de los resultados del análisis.
 
-Una manipulación efectiva de datos puede ayudar a mejorar la precisión de 
+Una manipulación efectiva de datos puede ayudar a mejorar la precisión de
 los modelos predictivos, identificar patrones ocultos en los datos y tomar decisiones
 informadas basadas en evidencia.
-
-
-
-

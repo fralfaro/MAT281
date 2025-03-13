@@ -1,0 +1,9 @@
+repos:
+  # Pre-commit hooks para limpiar espacios en blanco y fijar fin de archivo
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0  # Ejecuta `pre-commit autoupdate` regularmente para mantener actualizado
+    hooks:
+      - id: trailing-whitespace
+        files: \.md$   # Solo archivos Markdown
+      - id: end-of-file-fixer
+        files: \.md$   # Solo archivos Markdown

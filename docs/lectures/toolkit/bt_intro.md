@@ -4,10 +4,10 @@
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*qlEu4VFyhV-PU1YJ" width = "600" align="center"/>
 
-Los **sistemas operativos** son programas de software que gestionan los recursos de hardware y 
+Los **sistemas operativos** son programas de software que gestionan los recursos de hardware y
 proporcionan servicios comunes para otros programas que se ejecutan en una computadora.
 
-Básicamente, actúan como intermediarios entre el hardware de la computadora y 
+Básicamente, actúan como intermediarios entre el hardware de la computadora y
 el software de aplicación. Los sistemas operativos realizan tareas como la gestión de memoria,
 la gestión de archivos, el control de dispositivos, la administración de procesos y la interfaz de usuario.
 
@@ -24,13 +24,13 @@ Algunos ejemplos comunes de sistemas operativos son Windows, macOS, Linux, Andro
 **Interfaz de Línea de Comandos (*Command Line Interface* / CLI)**
 
 La **Interfaz de Línea de Comandos** es un tipo de interfaz de usuario que permite
-a los usuarios interactuar con un sistema informático mediante comandos de texto introducidos 
-a través de una línea de comando. En lugar de utilizar elementos gráficos como ventanas, 
+a los usuarios interactuar con un sistema informático mediante comandos de texto introducidos
+a través de una línea de comando. En lugar de utilizar elementos gráficos como ventanas,
 botones y menús, los usuarios ingresan comandos específicos en un símbolo del sistema o terminal.
 
 En una CLI, los usuarios escriben comandos y argumentos de texto plano para
 ejecutar diversas tareas, como administrar archivos, manipular configuraciones del
-sistema, ejecutar programas y realizar diversas operaciones informáticas. 
+sistema, ejecutar programas y realizar diversas operaciones informáticas.
 
 Esto proporciona un nivel de control y flexibilidad avanzado para usuarios experimentados,
 aunque puede tener una curva de aprendizaje más pronunciada en comparación con
@@ -89,7 +89,7 @@ Aislar el desarrollo para mejorar la compatibilidad y la reproducibilidad de los
 > trabajo en entornos locales. Sin embargo, dado que todo el curso está diseñado
 > para trabajar en **Google Colab**.
 
-## Project Jupyter 
+## Project Jupyter
 
 [Project Jupyter](https://jupyter.org/index.html) exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.*
 
@@ -166,6 +166,3 @@ Piensa lo siguiente, cualquiera podría implementar un correo electrónico entre
 * **Portafolio Personal**: Para los entregables del curso, utilizaremos la plantilla de [MAT281-Portfolio](https://github.com/fralfaro/MAT281-Portfolio).
 
 > 🔑 **Nota**: Las instrucciones de uso se encuentran en el [siguiente archivo](https://github.com/fralfaro/MAT281-Portfolio/blob/master/docs/setup.md).
-
-
-
