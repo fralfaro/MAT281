@@ -2179,14 +2179,14 @@
 <p>Para comprobar el estado de los archivos escribimos <code>git status</code>, de esta forma sabrás cuales están en el staging area listo para ser enviados al repositorio.</p>
 <p>Para añadir los cambios que están en espera al repositorio escribes <code>git commit -m ‘Mensaje que explique la función del commit’</code>, con el flag -m pasa un mensaje entre comillas que entregue detalles del cambio añadido, el commit crea puntos de control en la línea de tiempo de tu repositorio.</p>
 <p>Para utilizar un solo comado y realizar el git add + git commit puedes utilizar el flag -a, de la siguiente manera <code>git commit -a -m ‘Mensaje que explique la función del commit’</code>.</p>
-<p>Si agregaste algún cambio al staging area pero quieres quitarlo de ahí puedes escribir 
+<p>Si agregaste algún cambio al staging area pero quieres quitarlo de ahí puedes escribir
 <code>git reset HEAD archivo.txt</code></p>
 <h2 id="ignorar-y-borrar-archivos">Ignorar y borrar archivos</h2>
 <p>En cada proyecto hay archivos que no deseas versionar ya sea por su peso o su formato, para esto es que git te permite crear el archivo .gitignore dentro del cual debes detallar las carpetas o archivos que serán ignorados. A continuación un ejemplo.</p>
 <p align="center"><img src ="../images/gitignore.jpg" width="350"/></p>
 
 <p>Para borrar los cambio realizados en un archivo, en otras palabras regresar a su última versión guardada o si borraste por error un archivos que ya había sido enviado en un commit antes y quieres restaurarlo debes escribir en la línea de comandos <code>git checkout archivo.txt</code>, entonces git lo regresará a su última versión.</p>
-<p>Si lo que quieres es borrar un archivo del repositorio debes ejecutar el comando <code>git rm archivo.txt</code>, en el próximo commit el archivo será removido. </p>
+<p>Si lo que quieres es borrar un archivo del repositorio debes ejecutar el comando <code>git rm archivo.txt</code>, en el próximo commit el archivo será removido.</p>
 <h2 id="usando-ramas">Usando ramas</h2>
 <p>Con el comando <code>git log</code> puedes ver el historial de commits enviados al repositorio con los datos del usuario que los realizó, un ID único y el comentario de referencia que explica su función. Si lo que deseas es retroceder hasta una versión ‘x’, solo debes escribir en la terminal el siguiente comando <code>git checkout IdCommit</code> donde IdCommit son los primeros 7 caracteres del ID proporcionado en el log. Para crear una rama de desarrollo desde ese punto o desde donde te encuentras debes ejecutar <code>git checkout -b NombreRama</code></p>
 <p>Ahora te encuentras en otra rama, puedes crear cuantas quieras y pasa saber sus nombre y navegar luego entre ellas es que puedes ejecutar <code>git branch</code></p>
@@ -2194,11 +2194,11 @@
 <p>Para subir tu rama local al repositorio remoto (en el cual la rama no esta creada), ejecutas <code>git push origin NombreRama</code>, este comando se utiliza con más frecuencia para subir los cambios realizados en el repositorio local, luego darles commit, hacia el repositorio remoto. Para traer los cambios que otro integrante del equipo subió en una rama a tu repositorio local ejecutas <code>git pull origin NombreRama</code>, puedes traer cambios tu misma rama en su version remota o de otra rama con la cual quieras actualizar la tuya.</p>
 <p>En el caso de querer borrar una rama, ejecutas <code>git branch -D NombreRama</code> forzando el borrado de una rama sin haber ejecutado antes un merge. Para fusionar dos ramas o hacer un merge, debes estar sobre la rama que quieres que permanezca (ej: hacer un merge de un feature a la rama develop) y ejecutas el comando <code>git merge NombreRama</code> donde NombreRama el nombre de la rama que queremos integrar. Luego podemos si lo deseas, puedes borrar la rama ejecutando <code>git branch -d NombreRama</code></p>
 <h2 id="repositorio-remoto">Repositorio remoto</h2>
-<p>GitHub es una de la posibilidades que tienes para crear tu repositorio de forma remota. Para ello debes crear un repositorio, darle un nombre y si quieres escribes una descripción. El comando que te permite asociar tu repositorio local (previamente inicializado) con el remoto es: 
+<p>GitHub es una de la posibilidades que tienes para crear tu repositorio de forma remota. Para ello debes crear un repositorio, darle un nombre y si quieres escribes una descripción. El comando que te permite asociar tu repositorio local (previamente inicializado) con el remoto es:
 <code>git remote add origin https://github.com/nombre-usuario/nombre-repositorio.git</code>
 luego para subir el repositorio local ejecutas git push -u origin master, origin master es como se nombra a este repositorio remoto.</p>
-<p>Si lo que deseas es descargar tu repositorio en otro equipo puedes clonar tu repositorio remoto con el comando: 
-<code>git clone https://github.com/nombre-usuario/nombre-repositorio.git</code> </p>
+<p>Si lo que deseas es descargar tu repositorio en otro equipo puedes clonar tu repositorio remoto con el comando:
+<code>git clone https://github.com/nombre-usuario/nombre-repositorio.git</code></p>
 <p>Por último ya que alguien más del equipo de desarrollo pudo haber subido algún cambio, para no estar trabajando en una versión desactualizada debes bajar la última actualización de tu repositorio remoto a tu local, esto se hace con <code>git pull origin master</code>. Pull trae los cambio y push los envía.</p>
 <h2 id="resumen-de-comandos-git">Resumen de comandos git</h2>
 <table>
@@ -2293,8 +2293,8 @@ luego para subir el repositorio local ejecutas git push -u origin master, origin
 <h2 id="referencias">Referencias</h2>
 <ul>
 <li><a href="https://github.com/jiarcos/git-para-dummies">git para dummies</a></li>
-<li><a href="http://rogerdudler.github.io/git-guide/index.es.html">Git - la guía sencilla</a> </li>
-<li><a href="https://www.youtube.com/watch?v=QGKTdL7GG24">Te enseño git en 30 minutos</a> </li>
+<li><a href="http://rogerdudler.github.io/git-guide/index.es.html">Git - la guía sencilla</a></li>
+<li><a href="https://www.youtube.com/watch?v=QGKTdL7GG24">Te enseño git en 30 minutos</a></li>
 <li><a href="https://www.youtube.com/watch?v=RRegIKu-z3k">Git: Subir un proyecto a Github</a></li>
 <li><a href="https://devcode.la/cursos/git/">Curso gratis Devcode git y github</a></li>
 </ul>
