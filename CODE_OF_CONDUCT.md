@@ -48,4 +48,4 @@ Este código se inspira en principios de respeto, equidad y colaboración, busca
 
 ---
 
-**Juntos, construyamos una comunidad de aprendizaje respetuosa y enriquecedora en MAT281.**
+**Construyamos juntos una comunidad de aprendizaje basada en el respeto, la colaboración y el crecimiento mutuo..**

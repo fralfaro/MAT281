@@ -1,5 +1,5 @@
 name: "🚀 Pull Request"
-description: "Propuesta de mejora o corrección en los materiales del curso MAT281."
+description: "Propuesta de mejora o corrección en los materiales del curso."
 
 assignees:
   - fralfaro
@@ -12,7 +12,7 @@ labels: ["enhancement", "documentation", "bug"]
 body:
   - type: markdown
     attributes:
-      value: "¡Gracias por contribuir al curso MAT281! Para facilitar la revisión, completa esta información."
+      value: "¡Gracias por contribuir al curso! Para facilitar la revisión, completa esta información."
 
   - type: textarea
     id: descripcion

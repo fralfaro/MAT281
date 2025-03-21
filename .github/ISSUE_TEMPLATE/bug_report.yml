@@ -1,5 +1,5 @@
 name: "🐞 Reporte de Bug"
-description: "Reporta errores en los materiales del curso MAT281."
+description: "Reporta errores en los materiales del curso."
 title: "[BUG] Descripción breve"
 labels: ["bug"]
 assignees:

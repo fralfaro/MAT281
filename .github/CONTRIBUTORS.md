@@ -6,12 +6,13 @@ Agradecemos a todos los colaboradores que han participado en este proyecto con s
 ## 🚀 Equipo Principal
 Estos son los miembros principales que han trabajado activamente en el desarrollo del curso:
 
-- [Sebastián Flores](https://github.com/sebastiandres) – Coordinador técnico
-- [Alonso Ogueda](https://github.com/aoguedao) – Desarrollo de contenido
-- [Eric Zepeda](https://github.com/Hysteric-Larva) – Soporte en código
-- [Rodrigo Lecaros](https://www.linkedin.com/in/rodrigo-lecaros-04874926/) – Mentor y revisor
-- [Sebastián Torres](https://www.linkedin.com/in/sebtorresle/) – Documentación y QA
-- [Alberto Rubio](https://www.linkedin.com/in/arubiosu/) – Diseño y UX
+- [Francisco Alfaro](https://github.com/fralfaro) – Profesor y Coordinador
+- [Sebastián Flores](https://github.com/sebastiandres) – Profesor
+- [Alonso Ogueda](https://github.com/aoguedao) – Profesor
+- [Eric Zepeda](https://github.com/Hysteric-Larva) – Ayudante
+- [Rodrigo Lecaros](https://www.linkedin.com/in/rodrigo-lecaros-04874926/) – Colaborador
+- [Sebastián Torres](https://www.linkedin.com/in/sebtorresle/) – Colaborador
+- [Alberto Rubio](https://www.linkedin.com/in/arubiosu/) – Colaborador
 
 
 ## 💡 ¿Cómo convertirte en colaborador?

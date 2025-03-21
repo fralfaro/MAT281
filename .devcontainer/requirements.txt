@@ -3,6 +3,7 @@ pandas
 numpy
 matplotlib
 seaborn
+streamlit
 scikit-learn
 
 # Jupyter para notebooks
