@@ -163,6 +163,6 @@ Piensa lo siguiente, cualquiera podría implementar un correo electrónico entre
 
 * **GitHub**: Crear una cuenta directamente en el [sitio oficial](https://github.com/).
 * **Google Colab**: Herrramienta de trabajo oficial. Cada clase con *código* tendrá el siguiente logo (donde deben hacer click): <a href="" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-* **Portafolio Personal**: Para los entregables del curso, utilizaremos la plantilla de [MAT281-Portfolio](https://github.com/fralfaro/MAT281-Portfolio).
+* **Portafolio Personal**: Para los entregables del curso, utilizaremos la plantilla de [DMAT-Portfolio](https://github.com/fralfaro/DMAT-Portfolio).
 
 > 🔑 **Nota**: Las instrucciones de uso se encuentran en el [siguiente archivo](https://github.com/fralfaro/MAT281-Portfolio/blob/master/docs/setup.md).

@@ -4,6 +4,10 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 [![Pytest](https://img.shields.io/badge/py-test-brightgreen?logo=pytest)](https://docs.pytest.org/)
 <a href="https://fralfaro.github.io/MAT281"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📖 docs-link-brightgreen"></a>
+<a href="https://fralfaro.github.io/MAT306"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📖 docs-link-brightgreen"></a>
+<a href="https://drive.google.com/drive/folders/1yJYi0Jo8zAd21eZD98isYQ1VVYmpAvSU?usp=sharing"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📁 Material-link-brightgreen"></a>
+
+
 
 <a href="https://sethnut.com/talks/uc_2024/presentacion.html"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📽️talk-link-blue"></a>
 [![Open in Dev Containers](https://img.shields.io/static/v1?style=flat-square&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/fralfaro/MAT281)
