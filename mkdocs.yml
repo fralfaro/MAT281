@@ -105,6 +105,7 @@ nav:
             - lectures/toolkit/markdown.md
             - lectures/toolkit/python.ipynb
             - lectures/toolkit/google_colab.ipynb
+            - lectures/toolkit/ai.ipynb
     - 📝 Data Manipulation:
         - lectures/data_manipulation/data_intro.md
         - lectures/data_manipulation/sc_01.ipynb
