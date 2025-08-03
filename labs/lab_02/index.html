@@ -16,7 +16,7 @@
         <link rel="prev" href="../lab_01/">
       
       
-        <link rel="next" href="../lab_031/">
+        <link rel="next" href="../lab_04/">
       
       
       <link rel="icon" href="../../images/usm.png">
@@ -1682,13 +1682,82 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#problema-01" class="md-nav__link">
+  <a href="#problema-01-introduccion-a-la-regresion-lineal-simple" class="md-nav__link">
     <span class="md-ellipsis">
-      Problema 01
+      Problema 01 — Introducción a la regresión lineal simple
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Problema 01">
+    <nav class="md-nav" aria-label="Problema 01 — Introducción a la regresión lineal simple">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definicion-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición general
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cuando-un-modelo-lineal-no-es-adecuado" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Cuándo un modelo lineal no es adecuado?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estimacion-de-parametros-metodo-de-minimos-cuadrados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estimación de parámetros: Método de mínimos cuadrados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seleccion-de-modelos-coeficiente-de-determinacion-r2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selección de modelos — Coeficiente de determinación ($R^2$)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fórmula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpretación
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluacion-del-error-en-un-modelo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluación del error en un modelo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluación del error en un modelo">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1701,51 +1770,27 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mejores-paremetros-metodo-de-minimos-cudrados" class="md-nav__link">
+  <a href="#como-se-mide-el-error" class="md-nav__link">
     <span class="md-ellipsis">
-      Mejores parémetros: Método de minimos cudrados
+      ¿Cómo se mide el error?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#seleccion-de-modelos" class="md-nav__link">
+  <a href="#1-metricas-absolutas" class="md-nav__link">
     <span class="md-ellipsis">
-      Selección de modelos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-de-un-modelo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Error de un modelo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Error de un modelo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definicion_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Definición
+      1. Métricas absolutas
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#formas-de-medir-el-error-de-un-modelo" class="md-nav__link">
+  <a href="#2-metricas-porcentuales" class="md-nav__link">
     <span class="md-ellipsis">
-      Formas de medir el error de un modelo
+      2. Métricas porcentuales
     </span>
   </a>
   
@@ -1781,11 +1826,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_031/" class="md-nav__link">
+      <a href="../lab_031.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°031
+    Lab 031
   </span>
   
 
@@ -1802,11 +1847,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_032/" class="md-nav__link">
+      <a href="../lab_032.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°032
+    Lab 032
   </span>
   
 
@@ -1844,11 +1889,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_05/" class="md-nav__link">
+      <a href="../lab_05.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°05
+    Lab 05
   </span>
   
 
@@ -1865,11 +1910,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_06/" class="md-nav__link">
+      <a href="../lab_06.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°06
+    Lab 06
   </span>
   
 
@@ -1886,11 +1931,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_071/" class="md-nav__link">
+      <a href="../lab_071.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°071
+    Lab 071
   </span>
   
 
@@ -1907,11 +1952,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_072/" class="md-nav__link">
+      <a href="../lab_072.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°072
+    Lab 072
   </span>
   
 
@@ -1928,11 +1973,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_08/" class="md-nav__link">
+      <a href="../lab_08.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°08
+    Lab 08
   </span>
   
 
@@ -1949,11 +1994,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab_09/" class="md-nav__link">
+      <a href="../lab_09.ipynb" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MAT281 - Laboratorio N°09
+    Lab 09
   </span>
   
 
@@ -2170,13 +2215,82 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#problema-01" class="md-nav__link">
+  <a href="#problema-01-introduccion-a-la-regresion-lineal-simple" class="md-nav__link">
     <span class="md-ellipsis">
-      Problema 01
+      Problema 01 — Introducción a la regresión lineal simple
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Problema 01">
+    <nav class="md-nav" aria-label="Problema 01 — Introducción a la regresión lineal simple">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definicion-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición general
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cuando-un-modelo-lineal-no-es-adecuado" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Cuándo un modelo lineal no es adecuado?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estimacion-de-parametros-metodo-de-minimos-cuadrados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estimación de parámetros: Método de mínimos cuadrados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seleccion-de-modelos-coeficiente-de-determinacion-r2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selección de modelos — Coeficiente de determinación ($R^2$)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fórmula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpretación
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluacion-del-error-en-un-modelo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluación del error en un modelo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluación del error en un modelo">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2189,51 +2303,27 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mejores-paremetros-metodo-de-minimos-cudrados" class="md-nav__link">
+  <a href="#como-se-mide-el-error" class="md-nav__link">
     <span class="md-ellipsis">
-      Mejores parémetros: Método de minimos cudrados
+      ¿Cómo se mide el error?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#seleccion-de-modelos" class="md-nav__link">
+  <a href="#1-metricas-absolutas" class="md-nav__link">
     <span class="md-ellipsis">
-      Selección de modelos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-de-un-modelo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Error de un modelo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Error de un modelo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definicion_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Definición
+      1. Métricas absolutas
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#formas-de-medir-el-error-de-un-modelo" class="md-nav__link">
+  <a href="#2-metricas-porcentuales" class="md-nav__link">
     <span class="md-ellipsis">
-      Formas de medir el error de un modelo
+      2. Métricas porcentuales
     </span>
   </a>
   
@@ -2711,7 +2801,13 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><a href="https://colab.research.google.com/github/fralfaro/MAT281/blob/main/docs/labs/lab_02.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
-<h1 id="mat281-laboratorio-n02">MAT281 - Laboratorio N°02<a class="anchor-link" href="#mat281-laboratorio-n02">¶</a></h1>
+<h1 id="mat281-laboratorio-n02">MAT281 - Laboratorio N°02<a class="anchor-link" href="#mat281-laboratorio-n02">¶</a></h1><p><strong>Objetivos del Laboratorio 2</strong></p>
+<ul>
+<li>Reforzar el uso de la librería <strong>NumPy</strong> para el manejo y procesamiento eficiente de datos numéricos.</li>
+<li>Aplicar operaciones vectorizadas y funciones matemáticas de NumPy en contextos reales.</li>
+<li>Comprender la implementación de un modelo de <strong>regresión lineal simple</strong> utilizando arrays de NumPy.</li>
+<li>Interpretar los resultados obtenidos a partir del modelo ajustado.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -2722,22 +2818,30 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="problema-01">Problema 01<a class="anchor-link" href="#problema-01">¶</a></h2><p>El objetivo de este laboratorio es aplicar un modelo de regresión lineal simple.</p>
-<h3 id="definicion">Definición<a class="anchor-link" href="#definicion">¶</a></h3><p>El <strong>modelo de regresión lineal general</strong> o <strong>modelo de regresión multiple</strong>,  supone que,
-$\boldsymbol{Y} =  \boldsymbol{X}\boldsymbol{\beta} + \boldsymbol{\epsilon},$ donde:</p>
+<h2 id="problema-01-introduccion-a-la-regresion-lineal-simple">Problema 01 — Introducción a la regresión lineal simple<a class="anchor-link" href="#problema-01-introduccion-a-la-regresion-lineal-simple">¶</a></h2><p>El objetivo de este laboratorio es implementar y analizar un modelo de <strong>regresión lineal simple</strong>, utilizando operaciones vectorizadas con <strong>NumPy</strong>.</p>
+<h3 id="definicion-general">Definición general<a class="anchor-link" href="#definicion-general">¶</a></h3><p>El modelo de <strong>regresión lineal múltiple</strong> se expresa como:</p>
+<p>$$
+\boldsymbol{Y} = \boldsymbol{X} \boldsymbol{\beta} + \boldsymbol{\epsilon}
+$$</p>
+<p>donde:</p>
 <ul>
-<li>$\boldsymbol{X} = (x_1,...,x_n)^{T}$: variable explicativa</li>
-<li>$\boldsymbol{Y} = (y_1,...,y_n)^{T}$: variable respuesta</li>
-<li>$\boldsymbol{\epsilon} = (\epsilon_1,...,\epsilon_n)^{T}$: error se asume un ruido blanco, es decir, $\epsilon \sim \mathcal{N}( \boldsymbol{0},\sigma^2I)$</li>
-<li>$\boldsymbol{\beta} = (\beta_1,...,\beta_n)^{T}$: coeficientes de regresión.</li>
+<li>$\boldsymbol{X} = (x_1, \dots, x_n)^\top$: variable explicativa (matriz de diseño).</li>
+<li>$\boldsymbol{Y} = (y_1, \dots, y_n)^\top$: variable respuesta.</li>
+<li>$\boldsymbol{\epsilon} = (\epsilon_1, \dots, \epsilon_n)^\top$: término de error, asumido como ruido blanco: $\epsilon \sim \mathcal{N}(0, \sigma^2 I)$.</li>
+<li>$\boldsymbol{\beta} = (\beta_0, \beta_1, \dots, \beta_p)^\top$: coeficientes del modelo.</li>
 </ul>
-<p>La idea es tratar de establecer la relación entre las variables independientes y dependientes por medio de ajustar el mejor hyper plano con respecto a los puntos.</p>
-<p>Por ejemplo, para el caso de la <strong>regresión lineal simple</strong>, se tiene la siguiente estructura: $y_i=\beta_0+\beta_1x_i+\epsilon_i.$ En este caso, la regresión lineal corresponderá a la recta que mejor pasa por los puntos observados.</p>
-<p><img align="center" alt="No description has been provided for this image" src="https://drive.google.com/uc?export=view&amp;id=1Jk_I9oYU_S-jzud-t9mD0tVA3OPXLqXJ" width="500"/></p>
-<p>Existen algunas situaciones donde los modelos lineales no son apropiados:</p>
+<p>En el caso particular de la <strong>regresión lineal simple</strong>, se modela una única variable explicativa $x$ y una respuesta $y$, mediante la relación:</p>
+<p>$$
+y_i = \beta_0 + \beta_1 x_i + \epsilon_i
+$$</p>
+<p>El objetivo es encontrar los valores de $\beta_0$ y $\beta_1$ que ajusten una recta a los datos observados, minimizando la diferencia entre los valores reales $y_i$ y los valores predichos $\hat{y}_i$.</p>
+<div align="center">
+<img alt="No description has been provided for this image" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg" width="500"/>
+</div>
+<h3 id="cuando-un-modelo-lineal-no-es-adecuado">¿Cuándo un modelo lineal no es adecuado?<a class="anchor-link" href="#cuando-un-modelo-lineal-no-es-adecuado">¶</a></h3><p>Existen situaciones en las que los modelos lineales no entregan buenos resultados, por ejemplo:</p>
 <ul>
-<li>El rango de valores de $Y$ está restringido (ejemplo: datos binarios o de conteos).</li>
-<li>La varianza de $Y$ depende de la media.</li>
+<li>Cuando el rango de valores de $Y$ está restringido (como en variables binarias o de conteo).</li>
+<li>Cuando la varianza de $Y$ no es constante y depende de su media (heterocedasticidad).</li>
 </ul>
 </div>
 </div>
@@ -2749,13 +2853,26 @@ $\boldsymbol{Y} =  \boldsymbol{X}\boldsymbol{\beta} + \boldsymbol{\epsilon},$ do
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="mejores-paremetros-metodo-de-minimos-cudrados">Mejores parémetros: Método de minimos cudrados<a class="anchor-link" href="#mejores-paremetros-metodo-de-minimos-cudrados">¶</a></h3><p>El <strong>método de mínimos cudrados</strong> es un método de optimización que busca encontrar la mejor aproximación mediante la minimización de los residuos al cuadrado, es decir, se buscar encontrar:</p>
-<p>$$(P)\ \min \sum_{i=1}^n e_{i}^2 =\sum_{i=1}^n (y_{i}-f_{i}(x;\beta))^2   $$</p>
-<p>Para el caso de la regresión lineal simple, se busca una función $$f(x;\beta) = \beta_{0} + \beta_{1}x,$$</p>
-<p>por lo tanto el problema que se debe resolver es el siguiente:</p>
-<p>$$(P)\ \min \sum_{i=1}^n e_{i}^2 =\dfrac{1}{n}\sum_{i=1}^{n}\left ( y_{i}-(\beta_{0} + \beta_{1}x_{i})\right )^2$$</p>
-<p>Lo que significa, que para este problema, se debe encontrar $\beta = (\beta_{0},\beta_{1})$ que minimicen el problema de optimización. En este caso la solución viene dada por:</p>
-<p>$$\hat{\beta}_{1} = \dfrac{\sum(x-\bar{x})(y-\bar{y})}{\sum(x-\bar{x})^2} = \rho (x,y)\ ; \  \hat{\beta}_{0} = \bar{y}-\hat{\beta}_{1} \bar{x} $$</p>
+<h3 id="estimacion-de-parametros-metodo-de-minimos-cuadrados">Estimación de parámetros: Método de mínimos cuadrados<a class="anchor-link" href="#estimacion-de-parametros-metodo-de-minimos-cuadrados">¶</a></h3><p>El <strong>método de mínimos cuadrados</strong> es una técnica de optimización que permite encontrar los parámetros que mejor ajustan un modelo a los datos, minimizando la suma de los errores al cuadrado. Formalmente, el problema consiste en resolver:</p>
+<p>$$
+(P) \quad \min \sum_{i=1}^n e_i^2 = \sum_{i=1}^n (y_i - f_i(x; \beta))^2
+$$</p>
+<p>En el caso de la <strong>regresión lineal simple</strong>, se busca ajustar una función de la forma:</p>
+<p>$$
+f(x; \beta) = \beta_0 + \beta_1 x
+$$</p>
+<p>Por lo tanto, el problema de optimización se convierte en:</p>
+<p>$$
+(P) \quad \min \sum_{i=1}^n \left( y_i - (\beta_0 + \beta_1 x_i) \right)^2
+$$</p>
+<p>El objetivo es encontrar los coeficientes $\beta = (\beta_0, \beta_1)$ que minimicen esta suma.</p>
+<p>La solución analítica del problema se obtiene a partir de derivadas parciales y está dada por:</p>
+<p>$$
+\hat{\beta}_1 = \dfrac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}
+\quad , \quad
+\hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x}
+$$</p>
+<p>La pendiente $\hat{\beta}_1$ también puede interpretarse como la correlación lineal escalada entre $x$ y $y$.</p>
 </div>
 </div>
 </div>
@@ -2766,27 +2883,45 @@ $\boldsymbol{Y} =  \boldsymbol{X}\boldsymbol{\beta} + \boldsymbol{\epsilon},$ do
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="seleccion-de-modelos">Selección de modelos<a class="anchor-link" href="#seleccion-de-modelos">¶</a></h3><p><strong>R-cuadrado</strong></p>
-<p>El <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">coeficiente de determinación</a> o <strong>R-cuadrado</strong> ($r^2$ ) , es un estadístico usado en el contexto de un modelo estadístico cuyo principal propósito es predecir futuros resultados o probar una hipótesis. El coeficiente determina la calidad del modelo para replicar los resultados, y la proporción de variación de los resultados que puede explicarse por el modelo.</p>
-<p>El valor del $r^2$ habitualmente entre 0 y 1, donde 0 significa una mala calidad de ajuste en el modelo y 1 corresponde a un ajuste lineal perfecto. A menudo, este estadístico es ocupado para modelos lineales.</p>
-<p>Se define por la fórmula:</p>
-<p>$$r^2 = \dfrac{SS_{reg}}{SS_{tot}} = 1 - \dfrac{SS_{res}}{SS_{tot}},$$</p>
+<h3 id="seleccion-de-modelos-coeficiente-de-determinacion-r2">Selección de modelos — Coeficiente de determinación ($R^2$)<a class="anchor-link" href="#seleccion-de-modelos-coeficiente-de-determinacion-r2">¶</a></h3><p>El <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">coeficiente de determinación</a>, comúnmente conocido como <strong>$R^2$</strong>, es un estadístico utilizado para evaluar la calidad de ajuste de un modelo estadístico, especialmente en regresión lineal.</p>
+<p>Su principal propósito es medir qué tan bien el modelo logra explicar la variabilidad observada en la variable respuesta. Es decir, indica la <strong>proporción de la variación total de $y$</strong> que puede ser explicada por el modelo.</p>
+<p>El valor de $R^2$ está acotado entre 0 y 1:</p>
+<ul>
+<li>Un valor cercano a <strong>0</strong> sugiere que el modelo <strong>no explica bien los datos</strong>.</li>
+<li>Un valor cercano a <strong>1</strong> indica que el modelo <strong>ajusta muy bien los datos</strong> observados.</li>
+</ul>
+<h3 id="formula">Fórmula<a class="anchor-link" href="#formula">¶</a></h3><p>$$
+R^2 = \dfrac{SS_{\text{reg}}}{SS_{\text{tot}}} = 1 - \dfrac{SS_{\text{res}}}{SS_{\text{tot}}}
+$$</p>
 <p>donde:</p>
 <ul>
-<li><p><strong>$SS_{reg}$</strong> ( suma explicada de cuadrados (ESS)): $\sum_{i}(\hat{y}-\bar{y})^2$</p>
+<li><p>$SS_{\text{reg}}$: <strong>Suma de cuadrados explicada (ESS)</strong></p>
+<p>$$
+SS_{\text{reg}} = \sum_{i=1}^n (\hat{y}_i - \bar{y})^2
+$$</p>
 </li>
-<li><p><strong>$SS_{res}$</strong>: ( suma residual de cuadrados (RSS)): $\sum_{i}(y_{i}-\hat{y})^2 = \sum_{i}e_{i}^2$</p>
+<li><p>$SS_{\text{res}}$: <strong>Suma de cuadrados residual (RSS)</strong></p>
+<p>$$
+SS_{\text{res}} = \sum_{i=1}^n (y_i - \hat{y}_i)^2 = \sum_{i=1}^n e_i^2
+$$</p>
 </li>
-<li><p><strong>$SS_{tot}$</strong>: ( varianza): $\sum_{i}(y_{i}-\bar{y})$, donde: $SS_{tot}=SS_{reg}+SS_{res}$</p>
+<li><p>$SS_{\text{tot}}$: <strong>Suma total de cuadrados (TSS)</strong></p>
+<p>$$
+SS_{\text{tot}} = \sum_{i=1}^n (y_i - \bar{y})^2
+$$</p>
 </li>
 </ul>
-<p>En una forma general, se puede ver que $r^2$ está relacionado con la fracción de varianza inexplicada (FVU), ya que el segundo término compara la varianza inexplicada (varianza de los errores del modelo) con la varianza total (de los datos).</p>
-<p><img align="center" alt="No description has been provided for this image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Coefficient_of_Determination.svg/600px-Coefficient_of_Determination.svg.png" width="500"/></p>
+<p>Se cumple que:</p>
+<p>$$
+SS_{\text{tot}} = SS_{\text{reg}} + SS_{\text{res}}
+$$</p>
+<h3 id="interpretacion">Interpretación<a class="anchor-link" href="#interpretacion">¶</a></h3><p>El coeficiente $R^2$ está relacionado con la <strong>fracción de varianza no explicada</strong> (FVU). Cuanto menor sea el error residual (RSS), mayor será $R^2$, y mejor será el ajuste del modelo.</p>
+<div align="center">
+<img alt="No description has been provided for this image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Coefficient_of_Determination.svg/600px-Coefficient_of_Determination.svg.png" width="500"/>
+</div>
 <ul>
-<li><p>Las áreas de los cuadrados azules representan los residuos cuadrados con respecto a la regresión lineal ($SS_{tot}$).</p>
-</li>
-<li><p>Las áreas de los cuadrados rojos representan los residuos al cuadrado con respecto al valor promedio ($SS_{res}$).</p>
-</li>
+<li>Las áreas <strong>azules</strong> representan los residuos al cuadrado respecto a la <strong>media</strong> ($SS_{\text{tot}}$).</li>
+<li>Las áreas <strong>rojas</strong> representan los residuos al cuadrado respecto a la <strong>regresión</strong> ($SS_{\text{res}}$).</li>
 </ul>
 </div>
 </div>
@@ -2798,32 +2933,46 @@ $\boldsymbol{Y} =  \boldsymbol{X}\boldsymbol{\beta} + \boldsymbol{\epsilon},$ do
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="error-de-un-modelo">Error de un modelo<a class="anchor-link" href="#error-de-un-modelo">¶</a></h2><h3 id="definicion">Definición<a class="anchor-link" href="#definicion">¶</a></h3><p>El <strong>error</strong> corresponde a la diferencia entre el valor original y el valor predicho,es decir:</p>
-<p>$$e_{i}=y_{i}-\hat{y}_{i} $$</p>
-<p><img align="center" alt="No description has been provided for this image" src="https://madhureshkumar.wordpress.com/wp-content/uploads/2015/07/regressioncurv.png" width="500"/></p>
-<h3 id="formas-de-medir-el-error-de-un-modelo">Formas de medir el error de un modelo<a class="anchor-link" href="#formas-de-medir-el-error-de-un-modelo">¶</a></h3><p>Para medir el ajuste de un modelo se ocupan las denominadas <strong>funciones de distancias</strong> o <strong>métricas</strong>. Existen varias métricas, dentro de las cuales encontramos:</p>
-<ol>
-<li><p><strong>Métricas absolutas</strong>: Las métricas absolutas o no escalada miden el error sin escalar los valores. Las métrica absolutas más ocupadas son:</p>
+<p>Claro, aquí tienes una versión mejorada del texto sobre el <strong>error del modelo</strong>, con redacción más clara, precisión conceptual, ortografía corregida y mejor organización visual:</p>
+<h2 id="evaluacion-del-error-en-un-modelo">Evaluación del error en un modelo<a class="anchor-link" href="#evaluacion-del-error-en-un-modelo">¶</a></h2><h3 id="definicion">Definición<a class="anchor-link" href="#definicion">¶</a></h3><p>El <strong>error</strong> de un modelo corresponde a la diferencia entre el valor real observado y el valor estimado por el modelo. Se define como:</p>
+<p>$$
+e_i = y_i - \hat{y}_i
+$$</p>
+<p>donde $y_i$ es el valor real y $\hat{y}_i$ el valor predicho para el dato $i$.</p>
+<div align="center">
+<img alt="No description has been provided for this image" src="https://allmodelsarewrong.github.io/images/ols/ols-geom-obs3.svg" width="500"/>
+</div>
+<h3 id="como-se-mide-el-error">¿Cómo se mide el error?<a class="anchor-link" href="#como-se-mide-el-error">¶</a></h3><p>Para evaluar qué tan bien se ajusta un modelo a los datos, se utilizan <strong>métricas de error</strong> o <strong>funciones de pérdida</strong>. Estas métricas cuantifican el grado de desviación entre las predicciones y los valores reales. A continuación se presentan las más comunes, divididas en dos categorías:</p>
+<h3 id="1-metricas-absolutas">1. Métricas absolutas<a class="anchor-link" href="#1-metricas-absolutas">¶</a></h3><p>Las métricas absolutas miden el error en la misma escala que los datos, sin realizar normalización. Son útiles cuando la escala del problema es conocida y relevante.</p>
 <ul>
-<li><strong>Mean Absolute Error</strong> (MAE)</li>
+<li><strong>Error absoluto medio (MAE)</strong></li>
 </ul>
-<p>$$\textrm{MAE}(y,\hat{y}) = \dfrac{1}{n}\sum_{t=1}^{n}\left | y_{t}-\hat{y}_{t}\right |$$</p>
+<p>$$
+\text{MAE}(y, \hat{y}) = \dfrac{1}{n} \sum_{t=1}^{n} \left| y_t - \hat{y}_t \right|
+$$</p>
 <ul>
-<li><strong>Mean squared error</strong> (MSE):</li>
+<li><strong>Error cuadrático medio (MSE)</strong></li>
 </ul>
-<p>$$\textrm{MSE}(y,\hat{y}) =\dfrac{1}{n}\sum_{t=1}^{n}\left ( y_{t}-\hat{y}_{t}\right )^2$$</p>
-</li>
-<li><p><strong>Métricas Porcentuales</strong>: Las métricas porcentuales o escaladas miden el error de manera escalada, es decir, se busca acotar el error entre valores de 0 a 1, donde 0 significa que el ajuste es perfecto, mientras que 1 sería un mal ajuste. Cabe destacar que muchas veces las métricas porcentuales puden tener valores mayores a 1.Las métrica Porcentuales más ocupadas son:</p>
+<p>$$
+\text{MSE}(y, \hat{y}) = \dfrac{1}{n} \sum_{t=1}^{n} \left( y_t - \hat{y}_t \right)^2
+$$</p>
+<p>Estas métricas penalizan los errores de distinta forma: el MSE penaliza más los errores grandes, mientras que el MAE es más robusto ante valores atípicos.</p>
+<h3 id="2-metricas-porcentuales">2. Métricas porcentuales<a class="anchor-link" href="#2-metricas-porcentuales">¶</a></h3><p>Las métricas porcentuales escalan el error en relación al valor real, permitiendo comparar modelos o datos en distintas unidades o magnitudes. Aunque están acotadas en teoría entre 0 y 1, en la práctica pueden superar el 1 (especialmente cuando los valores reales son pequeños).</p>
 <ul>
-<li><strong>Mean absolute percentage error</strong> (MAPE):</li>
+<li><strong>Error porcentual absoluto medio (MAPE)</strong></li>
 </ul>
-<p>$$\textrm{MAPE}(y,\hat{y}) = \dfrac{1}{n}\sum_{t=1}^{n}\left | \frac{y_{t}-\hat{y}_{t}}{y_{t}} \right |$$</p>
+<p>$$
+\text{MAPE}(y, \hat{y}) = \dfrac{1}{n} \sum_{t=1}^{n} \left| \frac{y_t - \hat{y}_t}{y_t} \right|
+$$</p>
 <ul>
-<li><strong>Symmetric mean absolute percentage error</strong> (sMAPE):</li>
+<li><strong>Error porcentual absoluto medio simétrico (sMAPE)</strong></li>
 </ul>
-<p>$$\textrm{sMAPE}(y,\hat{y}) = \dfrac{1}{n}\sum_{t=1}^{n} \frac{\left |y_{t}-\hat{y}_{t}\right |}{(\left | y_{t} \right |^2+\left | \hat{y}_{t} \right |^2)/2}$$</p>
-</li>
-</ol>
+<p>$$
+\text{sMAPE}(y, \hat{y}) = \dfrac{1}{n} \sum_{t=1}^{n} \frac{\left| y_t - \hat{y}_t \right|}{\left( \left| y_t \right| + \left| \hat{y}_t \right| \right)/2}
+$$</p>
+<blockquote>
+<p>Nota: El sMAPE evita algunos problemas del MAPE cuando los valores reales se acercan a cero.</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -2834,12 +2983,14 @@ $\boldsymbol{Y} =  \boldsymbol{X}\boldsymbol{\beta} + \boldsymbol{\epsilon},$ do
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="problema-a-resolver">Problema a resolver<a class="anchor-link" href="#problema-a-resolver">¶</a></h2><p>En este artículo, utilizaremos un conjunto de datos de <strong>salarios</strong>. Nuestro conjunto de datos tendrá 2 columnas:</p>
+<h2 id="problema-a-resolver">Problema a resolver<a class="anchor-link" href="#problema-a-resolver">¶</a></h2><p>En este ejercicio trabajaremos con un conjunto de datos que relaciona los <strong>años de experiencia laboral</strong> con el <strong>salario anual</strong> de distintas personas.</p>
+<p>El objetivo es construir un modelo de <strong>regresión lineal simple</strong> que permita predecir el salario en función de los años de experiencia, y utilizar <strong>NumPy</strong> para realizar todas las operaciones necesarias.</p>
+<p>El conjunto de datos contiene dos columnas:</p>
 <ul>
-<li>años de experiencia (YearsExperience) - variable explicativa</li>
-<li>salario (Salary) - variable de respuesta</li>
+<li><code>YearsExperience</code>: cantidad de años de experiencia laboral (variable explicativa o independiente).</li>
+<li><code>Salary</code>: salario anual (variable de respuesta o dependiente).</li>
 </ul>
-<p>A coninuación, mostramos explícitamente el conjunto de datos.</p>
+<p>A continuación, se presenta explícitamente el conjunto de datos.</p>
 </div>
 </div>
 </div>
@@ -2916,9 +3067,19 @@ Salary =  np.array([
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Buscamos encontrar la regresión lineal simple:</p>
-<p>$$Salary_i=\beta_0+\beta_1YearsExperience_i+\epsilon_i$$</p>
-<p>Para esto debe resolver las siguientes preguntas:</p>
+<p>Nuestro objetivo es encontrar un modelo de <strong>regresión lineal simple</strong> que relacione el salario con los años de experiencia. El modelo a ajustar tiene la siguiente forma:</p>
+<p>$$
+Salary_i = \beta_0 + \beta_1 \cdot YearsExperience_i + \epsilon_i
+$$</p>
+<p>donde:</p>
+<ul>
+<li>$Salary_i$ es el salario observado para la persona $i$,</li>
+<li>$YearsExperience_i$ representa los años de experiencia,</li>
+<li>$\beta_0$ es el intercepto del modelo,</li>
+<li>$\beta_1$ es la pendiente o coeficiente de regresión, y</li>
+<li>$\epsilon_i$ es el error aleatorio asociado a la observación $i$.</li>
+</ul>
+<p>A continuación, deberás resolver las siguientes preguntas para construir, ajustar y evaluar el modelo utilizando <strong>NumPy</strong>.</p>
 </div>
 </div>
 </div>
@@ -2929,9 +3090,17 @@ Salary =  np.array([
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol>
-<li>Defina la función <code>estimate_coef(x,y)</code> para encontrar los coeficientes de regresión lineal $b = (b_0,b_1)$.</li>
-</ol>
+<p><strong>1. Estimación de coeficientes</strong></p>
+<p>Define una función llamada <code>estimate_coef(x, y)</code> que reciba dos arreglos de NumPy:</p>
+<ul>
+<li><code>x</code>: variable explicativa (años de experiencia),</li>
+<li><code>y</code>: variable de respuesta (salario),</li>
+</ul>
+<p>y retorne una tupla con los coeficientes estimados de la regresión lineal simple $(b_0, b_1)$, donde:</p>
+<p>$$
+b_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}, \quad 
+b_0 = \bar{y} - b_1 \cdot \bar{x}
+$$</p>
 </div>
 </div>
 </div>
@@ -3016,9 +3185,18 @@ print(f"Coeficientes estimados:\nb_0 = {beta_estimado[0]} \nb_1 = {beta_estimado
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="2">
-<li>Grafique su solución ocupando la función <code>plot_regression_line(x,y,yhat)</code>.</li>
-</ol>
+<p><strong>2. Visualización del modelo ajustado</strong></p>
+<p>Utiliza la función <code>plot_regression_line(x, y, yhat)</code> para graficar los datos observados junto con la recta de regresión obtenida.</p>
+<ul>
+<li><code>x</code>: valores de la variable explicativa (años de experiencia),</li>
+<li><code>y</code>: valores observados de la variable de respuesta (salario),</li>
+<li><code>yhat</code>: valores predichos por el modelo lineal, calculados como $\hat{y} = b_0 + b_1 x$</li>
+</ul>
+<p>La gráfica debe incluir:</p>
+<ul>
+<li>Un diagrama de dispersión con los puntos observados $(x_i, y_i)$,</li>
+<li>La recta de regresión que representa el modelo ajustado.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -3117,15 +3295,36 @@ plot_regression_line(YearsExperience, Salary, prediccion)</div>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="3">
-<li>Calcule el estadístico <strong>r-cuadrado</strong> ($r^2$) y las siguientes métricas de error:<ul>
-<li>mae</li>
-<li>rmse</li>
-<li>mape</li>
-<li>smape</li>
-</ul>
+<p><strong>3. Evaluación cuantitativa del modelo</strong></p>
+<p>Utiliza los valores reales (<code>y</code>) y los valores predichos por el modelo (<code>yhat</code>) para calcular diversas métricas que cuantifican el error y la calidad del ajuste.</p>
+<p>Debes definir e implementar las siguientes funciones:</p>
+<ul>
+<li><p><code>mae(y, yhat)</code>: <strong>Error absoluto medio</strong></p>
+<p>$$
+\text{MAE} = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|
+$$</p>
 </li>
-</ol>
+<li><p><code>rmse(y, yhat)</code>: <strong>Raíz del error cuadrático medio</strong></p>
+<p>$$
+\text{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2 }
+$$</p>
+</li>
+<li><p><code>mape(y, yhat)</code>: <strong>Error porcentual absoluto medio</strong></p>
+<p>$$
+\text{MAPE} = \frac{1}{n} \sum_{i=1}^n \left| \frac{y_i - \hat{y}_i}{y_i} \right|
+$$</p>
+</li>
+<li><p><code>smape(y, yhat)</code>: <strong>Error porcentual absoluto medio simétrico</strong></p>
+<p>$$
+\text{sMAPE} = \frac{1}{n} \sum_{i=1}^n \frac{ |y_i - \hat{y}_i| }{ (|y_i| + |\hat{y}_i|)/2 }
+$$</p>
+</li>
+<li><p><code>rsquared(y, yhat)</code>: <strong>Coeficiente de determinación $R^2$</strong></p>
+<p>$$
+R^2 = 1 - \frac{ \sum_{i=1}^n (y_i - \hat{y}_i)^2 }{ \sum_{i=1}^n (y_i - \bar{y})^2 }
+$$</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -3405,9 +3604,15 @@ print(f"r^2:   {calcular_rsquared}")</div>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="4">
-<li>Conclusiones del caso de estudio (evaluar si la regresión lineal se ajusta correctamente a los datos o no).</li>
-</ol>
+<p><strong>4. Análisis de resultados y conclusiones</strong></p>
+<p>Con base en las métricas obtenidas, realiza una reflexión final sobre el desempeño del modelo.
+Evalúa si la <strong>regresión lineal simple</strong> proporciona un buen ajuste para los datos observados. Para ello, considera lo siguiente:</p>
+<ul>
+<li>¿El valor de $R^2$ indica una alta capacidad explicativa del modelo?</li>
+<li>¿Los errores (MAE, RMSE, MAPE, sMAPE) son bajos en relación al rango de los salarios?</li>
+<li>¿Hay patrones evidentes en los errores que sugieran que un modelo lineal no es adecuado?</li>
+</ul>
+<p>Redacta tus conclusiones de forma clara, justificando si el modelo de regresión lineal es apropiado o si podrían considerarse otras alternativas.</p>
 </div>
 </div>
 </div>
@@ -3478,13 +3683,13 @@ print(f"r^2:   {calcular_rsquared}")</div>
         
         
           
-          <a href="../lab_031/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: MAT281 - Laboratorio N°031">
+          <a href="../lab_04/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: MAT281 - Laboratorio N°04">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Siguiente
               </span>
               <div class="md-ellipsis">
-                MAT281 - Laboratorio N°031
+                MAT281 - Laboratorio N°04
               </div>
             </div>
             <div class="md-footer__button md-icon">
