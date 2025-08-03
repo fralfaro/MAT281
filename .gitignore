@@ -172,3 +172,4 @@ cython_debug/
 
 # Visual Studio Code
 .vscode/
+docs/labs/temp/
