@@ -138,7 +138,7 @@ y porque es posible indicar los porcentajes respectivos.
 
 
 
-<img src="https://www.portent.com/images/2020/03/Pie3.jpg" width = "500" align="center"/>
+<img src="https://graphworkflow.com/wp-content/uploads/2019/08/pie.png" width = "500" align="center"/>
 
 
 
