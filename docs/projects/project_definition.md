@@ -27,43 +27,43 @@ Debe incluir las siguientes secciones:
 
 1. **Definición del problema**
 
-   * Justificación del problema de churn en contextos reales.
-   * Objetivo del análisis y definición de la variable objetivo (`Churn`).
+     * Justificación del problema de churn en contextos reales.
+     * Objetivo del análisis y definición de la variable objetivo (`Churn`).
 
 2. **Análisis exploratorio**
 
-   * Estadísticas descriptivas generales.
-   * Distribuciones, correlaciones, y relaciones entre variables clave.
+     * Estadísticas descriptivas generales.
+     * Distribuciones, correlaciones, y relaciones entre variables clave.
 
 3. **Visualización descriptiva**
 
-   * Gráficos de barras, violín, dispersión, heatmaps, etc.
-   * Comparaciones entre clientes que se mantienen y los que abandonan.
+     * Gráficos de barras, violín, dispersión, heatmaps, etc.
+     * Comparaciones entre clientes que se mantienen y los que abandonan.
 
 4. **Preprocesamiento**
 
-   * Tratamiento de valores nulos, codificación de variables categóricas, transformación de datos.
-   * Detección de desbalanceo en la variable objetivo y posible uso de técnicas como `SMOTE`.
+     * Tratamiento de valores nulos, codificación de variables categóricas, transformación de datos.
+     * Detección de desbalanceo en la variable objetivo y posible uso de técnicas como `SMOTE`.
 
 5. **Selección y comparación de modelos**
 
-   * Comparación de al menos **cuatro modelos supervisados**.
-   * Al menos **tres de ellos deben incorporar ajuste de hiperparámetros** (ej. grid search o random search).
-   * Modelos sugeridos: `Logistic Regression`, `Random Forest`, `XGBoost`, `SVM`, `KNN`.
+     * Comparación de al menos **cuatro modelos supervisados**.
+     * Al menos **tres de ellos deben incorporar ajuste de hiperparámetros** (ej. grid search o random search).
+     * Modelos sugeridos: `Logistic Regression`, `Random Forest`, `XGBoost`, `SVM`, `KNN`.
 
 6. **Evaluación de modelos**
 
-   * Utilizar métricas como Accuracy, F1-score, Precision, Recall, ROC-AUC.
-   * Curvas ROC y matriz de confusión.
+     * Utilizar métricas como Accuracy, F1-score, Precision, Recall, ROC-AUC.
+     * Curvas ROC y matriz de confusión.
 
 7. **Interpretación del modelo**
 
-   * Importancia de variables (feature importance) o uso de técnicas interpretables (`SHAP`, `eli5`).
+     * Importancia de variables (feature importance) o uso de técnicas interpretables (`SHAP`, `eli5`).
 
 8. **Conclusiones y recomendaciones**
 
-   * Principales hallazgos y patrones relevantes.
-   * Recomendaciones para áreas comerciales y de retención de clientes.
+     * Principales hallazgos y patrones relevantes.
+     * Recomendaciones para áreas comerciales y de retención de clientes.
 
 > **Nota**: Se valorará especialmente la incorporación de redes neuronales o técnicas avanzadas si son correctamente justificadas.
 
@@ -78,6 +78,6 @@ Debe incluir las siguientes secciones:
 
 ## Información Importante
 
-* **Plazo**: 28 de Noviembre de 2025 .
+* **Plazo**: 28 de Noviembre de 2025.
 * Esto corresponde a un desafío de Kaggle ([link](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)).
-* A modo de inspiración, pueden revisar notebooks públicos de otros participantes en [Kaggle Code](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code).
+* Como inspiración, pueden revisar notebooks de Kaggle en la sección [Kaggle Code](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code).
