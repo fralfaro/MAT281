@@ -143,6 +143,6 @@ nav:
 
         - Tareas:
             - Tarea 01: homeworks/hw_01.ipynb
-            - Tarea 01: homeworks/hw_02.ipynb
+            - Tarea 02: homeworks/hw_02.ipynb
         - Proyecto:
             - projects/project_definition.md
