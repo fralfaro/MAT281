@@ -1759,6 +1759,14 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
     
       
@@ -1895,6 +1903,90 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../labs/lab_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MAT281 - Laboratorio N°06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../labs/lab_07/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MAT281 - Laboratorio N°07
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../labs/lab_08/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MAT281 - Laboratorio N°08
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../labs/lab_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MAT281 - Laboratorio N°09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1911,6 +2003,8 @@
   
     
     
+      
+        
       
         
       
@@ -1957,6 +2051,27 @@
   
   <span class="md-ellipsis">
     MAT281 - Tarea N°01
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../homeworks/hw_02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MAT281 - Tarea N°02
   </span>
   
 
@@ -2703,7 +2818,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img align="center" alt="No description has been provided for this image" src="https://media.geeksforgeeks.org/wp-content/uploads/merge3cluster.jpg" width="600"/></p>
+<p><img align="center" alt="No description has been provided for this image" src="https://cdn.prod.website-files.com/67b2d026ca23f2c7e5447a4d/67f4d1cec97d68e24803f93f_Clustering.png" width="700"/></p>
 </div>
 </div>
 </div>
@@ -3583,28 +3698,24 @@ plt.show()</div>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="hierarchical-clustering">Hierarchical clustering<a class="anchor-link" href="#hierarchical-clustering">¶</a></h2><p>El <em>Hierarchical Clustering</em> es un método de agrupamiento que organiza datos en una estructura jerárquica, formando una especie de árbol o dendrograma. Este proceso se divide en dos enfoques principales: <strong>aglomerativo</strong> (ascendente) y <strong>divisivo</strong> (descendente).</p>
+<h2 id="hierarchical-clustering">Hierarchical clustering<a class="anchor-link" href="#hierarchical-clustering">¶</a></h2><p>El <em>Hierarchical Clustering</em> es un método de <strong>agrupamiento no supervisado</strong> que organiza los datos en una estructura jerárquica representada por un <strong>dendrograma</strong>. Existen dos enfoques principales:</p>
 <ol>
-<li><p><strong>Enfoque aglomerativo</strong>: Comienza con cada observación en su propio cluster y, en cada paso, fusiona los clusters más cercanos hasta que todos se combinan en uno solo.</p>
-</li>
-<li><p><strong>Enfoque divisivo</strong>: Comienza con un solo cluster que incluye todas las observaciones y, en cada paso, divide el cluster en dos hasta que cada observación esté en su propio cluster.</p>
-</li>
+<li><strong>Aglomerativo (ascendente)</strong>: parte de cada observación como un cluster y los fusiona progresivamente hasta formar uno solo.</li>
+<li><strong>Divisivo (descendente)</strong>: comienza con un único cluster que contiene todas las observaciones y lo divide hasta llegar a clusters individuales.</li>
 </ol>
-<p><strong>Distancias y Función de Enlace</strong></p>
-<p>El algoritmo depende de dos elementos matemáticos clave:</p>
+<p>El algoritmo depende de:</p>
 <ul>
-<li><p><strong>Métrica de distancia</strong>: Mide la similitud entre puntos. Las métricas comunes incluyen la distancia euclidiana y la distancia Manhattan.</p>
+<li><p><strong>Métrica de distancia</strong>: mide la similitud entre observaciones (euclidiana, Manhattan, etc.).</p>
 </li>
-<li><p><strong>Función de enlace</strong>: Define cómo calcular la distancia entre clusters al combinar o dividir. Entre las funciones de enlace más comunes se encuentran:</p>
+<li><p><strong>Función de enlace</strong>: define cómo calcular la distancia entre clusters al fusionarlos o dividirlos:</p>
 <ul>
-<li><strong>Enlace completo</strong>: Usa la distancia máxima entre puntos de dos clusters, maximizando la separación entre ellos.</li>
-<li><strong>Enlace simple</strong>: Usa la distancia mínima entre puntos de dos clusters, favoreciendo la formación de cadenas de puntos.</li>
-<li><strong>Enlace promedio</strong>: Usa la distancia promedio entre puntos de los clusters, ofreciendo un equilibrio entre las anteriores.</li>
-<li><strong>Enlace de Ward</strong>: Minimiza la varianza dentro de cada cluster al fusionarlos, buscando una partición compacta.</li>
+<li><strong>Completo</strong>: distancia máxima entre puntos.</li>
+<li><strong>Simple</strong>: distancia mínima.</li>
+<li><strong>Promedio</strong>: distancia media.</li>
+<li><strong>Ward</strong>: minimiza la varianza dentro de los clusters.</li>
 </ul>
 </li>
 </ul>
-<p>El resultado se visualiza en un <strong>dendrograma</strong>, donde la altura de las uniones indica la distancia entre clusters. Al seleccionar un corte en el dendrograma, se obtiene el número deseado de clusters.</p>
 </div>
 </div>
 </div>
@@ -3616,12 +3727,18 @@ plt.show()</div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Dendrograma</strong></p>
-<p>El <strong>dendrograma</strong> es una representación gráfica de la estructura jerárquica creada por el <em>hierarchical clustering</em>. Es un diagrama en forma de árbol que muestra cómo y en qué orden se fusionan o dividen los clusters.</p>
-<p><strong>Interpretación Matemática</strong></p>
-<p>En el dendrograma, cada hoja representa una observación, y cada rama une dos clusters o puntos individuales. La <strong>altura</strong> a la que se realiza cada unión corresponde a la distancia entre los clusters, determinada por la métrica de distancia y la función de enlace elegidas. Matemáticamente, esta altura refleja el nivel de similitud o disimilitud entre los clusters.</p>
-<p><strong>Elección del Número de Clusters</strong></p>
-<p>Para seleccionar un número óptimo de clusters, se puede cortar el dendrograma en un nivel de altura específico. El <strong>corte horizontal</strong> define la cantidad de clusters: cada segmento resultante representa un cluster. En general, se elige el punto donde el incremento en la altura entre uniones consecutivas es mayor, señalando un cambio brusco en la disimilitud.</p>
-<p><img align="center" alt="No description has been provided for this image" src="https://scikit-learn.org/1.5/_images/sphx_glr_plot_agglomerative_dendrogram_001.png" width="500"/></p>
+<p>El <strong>dendrograma</strong> es la representación gráfica de la estructura generada por el <em>hierarchical clustering</em>. Se muestra como un árbol donde se visualiza el proceso de fusión o división de los clusters a lo largo del algoritmo.</p>
+<p><strong>Interpretación</strong></p>
+<ul>
+<li>Cada <strong>hoja</strong> del dendrograma corresponde a una observación.</li>
+<li>Cada <strong>rama</strong> indica la unión de dos clusters o puntos individuales.</li>
+<li>La <strong>altura</strong> de la unión refleja la distancia o disimilitud entre los clusters, determinada por la métrica de distancia y la función de enlace utilizadas.</li>
+</ul>
+<p>En términos matemáticos, esta altura representa el nivel de similitud: cuanto más baja es la unión, más parecidos son los clusters.</p>
+<p><strong>Selección del número de clusters</strong></p>
+<p>Para decidir cuántos clusters obtener, se realiza un <strong>corte horizontal</strong> en el dendrograma a una cierta altura. Cada grupo de ramas separado por ese corte constituye un cluster.
+Generalmente, se elige el punto donde hay un salto notable en la altura entre fusiones consecutivas, lo que indica un cambio importante en la disimilitud entre los datos.</p>
+<p><img align="center" alt="No description has been provided for this image" src="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/figures/005-visualizing-dendrograms-cutree-1.png" width="700"/></p>
 </div>
 </div>
 </div>
@@ -3741,39 +3858,33 @@ plt.show()
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="density-based-clustering-dbscan">Density-Based Clustering (DBSCAN)<a class="anchor-link" href="#density-based-clustering-dbscan">¶</a></h2><p>El <strong>DBSCAN</strong> (Density-Based Spatial Clustering of Applications with Noise) es un método de clustering basado en densidad que agrupa puntos en función de su proximidad y densidad local. A diferencia de otros algoritmos de clustering como K-means, DBSCAN no requiere definir el número de clusters de antemano y puede identificar clusters de formas irregulares, además de gestionar puntos de ruido o anomalías.</p>
-<p><img align="center" alt="No description has been provided for this image" src="https://rust-ml.github.io/book/assets/clustering_comparison.png"/></p>
-<p><strong>Conceptos Clave</strong></p>
-<p>DBSCAN utiliza dos parámetros principales:</p>
-<ol>
-<li><p><strong>Radio de vecindad ($ \varepsilon $)</strong>: Define el radio en el que se consideran vecinos los puntos. Todos los puntos dentro de esta distancia de un punto dado se consideran en su "vecindad".</p>
-</li>
-<li><p><strong>Mínimo de puntos (MinPts)</strong>: Especifica el número mínimo de puntos necesarios para considerar que una región tiene suficiente densidad para formar un cluster.</p>
-</li>
-</ol>
-<p><strong>Funcionamiento del Algoritmo</strong></p>
+<h2 id="density-based-clustering-dbscan">Density-Based Clustering (DBSCAN)<a class="anchor-link" href="#density-based-clustering-dbscan">¶</a></h2><p><img align="center" alt="No description has been provided for this image" src="https://rust-ml.github.io/book/assets/clustering_comparison.png"/></p>
+<p>El <strong>DBSCAN</strong> (<em>Density-Based Spatial Clustering of Applications with Noise</em>) es un algoritmo de <strong>clustering basado en densidad</strong> que agrupa puntos según su proximidad local. A diferencia de métodos como <em>K-means</em>, no requiere fijar de antemano el número de clusters, puede detectar formas arbitrarias y manejar <strong>ruido</strong> u <strong>outliers</strong>.</p>
+<p><strong>Conceptos clave</strong></p>
+<ul>
+<li><strong>Radio de vecindad ($\varepsilon$)</strong>: distancia máxima para considerar a otro punto como vecino.</li>
+<li><strong>Mínimo de puntos (MinPts)</strong>: número mínimo de vecinos para que una región sea considerada densa y forme un cluster.</li>
+</ul>
+<p><strong>Funcionamiento</strong></p>
 <ol>
 <li><p><strong>Clasificación de puntos</strong>:</p>
 <ul>
-<li><strong>Puntos centrales</strong>: Tienen al menos $ \text{MinPts} $ puntos en su vecindad de radio $ \varepsilon $.</li>
-<li><strong>Puntos de borde</strong>: Están dentro de la vecindad de un punto central pero no tienen suficientes vecinos para ser puntos centrales por sí mismos.</li>
-<li><strong>Puntos de ruido</strong>: No cumplen con las condiciones de densidad y se consideran puntos aislados.</li>
+<li><strong>Centrales</strong>: tienen al menos <em>MinPts</em> en su vecindad.</li>
+<li><strong>De borde</strong>: están cerca de un punto central, pero no cumplen la condición por sí solos.</li>
+<li><strong>Ruido</strong>: no pertenecen a ningún cluster.</li>
 </ul>
 </li>
-<li><p><strong>Expansión de clusters</strong>:</p>
-<ul>
-<li>DBSCAN selecciona un punto no visitado y, si es un punto central, inicia un nuevo cluster. Expande este cluster incorporando todos los puntos de su vecindad y continúa el proceso con los nuevos puntos centrales encontrados, hasta que no queden puntos adicionales para agregar.</li>
-</ul>
+<li><p><strong>Expansión de clusters</strong>: a partir de un punto central se agregan vecinos y se repite el proceso recursivamente.</p>
 </li>
-<li><p><strong>Identificación de ruido</strong>: Los puntos que no pueden ser alcanzados por ningún cluster se consideran puntos de ruido y se excluyen del clustering.</p>
+<li><p><strong>Identificación de ruido</strong>: los puntos que no pueden asignarse a ningún cluster quedan como anomalías.</p>
 </li>
 </ol>
-<p><strong>Ventajas y Desventajas</strong></p>
+<p><strong>Ventajas y desventajas</strong></p>
 <ul>
-<li><strong>Ventajas</strong>: No requiere predefinir el número de clusters, maneja bien clusters de formas arbitrarias y detecta outliers.</li>
-<li><strong>Desventajas</strong>: Sensible a la elección de los parámetros $ \varepsilon $ y MinPts, y puede tener problemas con clusters de densidades variables.</li>
+<li><strong>Ventajas</strong>: no necesita definir $k$, detecta clusters no esféricos y encuentra outliers.</li>
+<li><strong>Desventajas</strong>: depende fuertemente de los parámetros $\varepsilon$ y <em>MinPts</em>, y puede fallar en datos con densidades muy variables.</li>
 </ul>
-<p>DBSCAN es útil en aplicaciones donde se espera que los clusters tengan formas no esféricas y se necesite identificar ruido, como en la detección de anomalías y el análisis de datos geoespaciales.</p>
+<p>DBSCAN se aplica en contextos como detección de anomalías y análisis geoespacial, donde los clusters no siguen formas regulares.</p>
 </div>
 </div>
 </div>
@@ -3914,30 +4025,34 @@ plt.show()</div>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="gaussian-mixture-models-gmms">Gaussian Mixture Models (GMMs)<a class="anchor-link" href="#gaussian-mixture-models-gmms">¶</a></h2><p>Las <strong>Gaussian Mixture Models</strong> (Modelos de Mezcla Gaussiana) son un método de clustering probabilístico que asume que los datos se generan a partir de una combinación de múltiples distribuciones gaussianas (normales). Cada cluster se modela como una distribución gaussiana, y el modelo permite que los clusters se solapen, lo cual es útil cuando los datos no tienen límites claros.</p>
-<p><strong>Conceptos Clave</strong></p>
-<ol>
-<li><p><strong>Distribución Mixta</strong>: GMM asume que los datos provienen de una mezcla de $ K $ distribuciones gaussianas, cada una con su propia media y varianza. La probabilidad de que un punto pertenezca a un cluster depende de su proximidad a la media de esa gaussiana y de la varianza de la misma.</p>
-</li>
-<li><p><strong>Asignación Probabilística</strong>: A diferencia de métodos como K-means, donde cada punto pertenece exclusivamente a un cluster, GMM asigna a cada punto una probabilidad de pertenecer a cada cluster. Esto permite modelar mejor los datos que no tienen límites claramente definidos.</p>
-</li>
-<li><p><strong>Parámetros del Modelo</strong>:</p>
+<h2 id="gaussian-mixture-models-gmms">Gaussian Mixture Models (GMMs)<a class="anchor-link" href="#gaussian-mixture-models-gmms">¶</a></h2><p><img align="center" alt="No description has been provided for this image" src="https://scikit-learn.org/0.16/_images/plot_gmm_classifier_0011.png"/></p>
+<p>Los <strong>Gaussian Mixture Models</strong> (GMMs) son un método de <strong>clustering probabilístico</strong> que asume que los datos provienen de una combinación de varias distribuciones gaussianas. Cada cluster se modela con su propia media, varianza y peso, permitiendo que los clusters se <strong>solapen</strong>, a diferencia de métodos como <em>K-means</em>.</p>
+<p><strong>Conceptos clave</strong></p>
 <ul>
-<li><strong>Media ($ \mu $)</strong>: Centro de cada gaussiana.</li>
-<li><strong>Varianza ($ \sigma^2 $)</strong>: Dispersión de cada gaussiana.</li>
-<li><strong>Peso del Cluster ($ \pi $)</strong>: Representa la proporción de cada cluster en los datos.</li>
+<li><strong>Distribución mixta</strong>: los datos se generan a partir de $K$ gaussianas.</li>
+<li><strong>Asignación probabilística</strong>: cada punto tiene una probabilidad de pertenecer a cada cluster, en lugar de una asignación exclusiva.</li>
+<li><strong>Parámetros</strong>: media ($\mu$), varianza ($\sigma^2$) y peso del cluster ($\pi$).</li>
 </ul>
-</li>
-</ol>
 <p><strong>Algoritmo EM (Expectation-Maximization)</strong></p>
-<p>El ajuste de GMM se realiza mediante el algoritmo de Expectación-Maximización (EM), un proceso iterativo que alterna entre dos pasos:</p>
 <ol>
-<li><strong>Paso E (Expectation)</strong>: Calcula la probabilidad de que cada punto de datos pertenezca a cada cluster, dado el valor actual de los parámetros.</li>
-<li><strong>Paso M (Maximization)</strong>: Actualiza los parámetros de las gaussianas (media, varianza y peso) para maximizar la probabilidad de los datos, dadas las asignaciones de probabilidad calculadas en el Paso E.</li>
+<li><strong>Paso E</strong>: calcula la probabilidad de que cada punto pertenezca a cada gaussiana.</li>
+<li><strong>Paso M</strong>: actualiza los parámetros para maximizar la verosimilitud de los datos.
+El proceso se repite hasta la convergencia.</li>
 </ol>
-<p>Este proceso continúa hasta que las asignaciones de los puntos a los clusters se estabilizan o se alcanza un número máximo de iteraciones.</p>
-<p><strong>Aplicaciones y Ventajas</strong></p>
-<p>GMMs son útiles cuando los datos presentan clusters que pueden solaparse o tener formas elípticas. También son aplicables en tareas de detección de anomalías, reducción de dimensionalidad y segmentación de datos cuando se desea una asignación probabilística de pertenencia a clusters.</p>
+<br/>
+<blockquote>
+<p><strong>Aplicaciones</strong>: Los GMMs son útiles cuando los datos presentan <strong>clusters elípticos o solapados</strong>, y se aplican en segmentación de datos, detección de anomalías y reducción de dimensionalidad.</p>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="aplicacion">Aplicación<a class="anchor-link" href="#aplicacion">¶</a></h3><p>En este ejemplo, generaremos un conjunto de datos sintético utilizando la función <code>make_blobs</code> de <code>sklearn</code>. Este conjunto de datos consistirá en 300 puntos distribuidos en torno a tres centros o clusters, con una dispersión específica. Utilizaremos GMM para identificar los clusters, lo cual es especialmente útil cuando los clusters tienen forma elíptica o se superponen ligeramente.</p>
 </div>
 </div>
