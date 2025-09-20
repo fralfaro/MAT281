@@ -78,6 +78,6 @@ Debe incluir las siguientes secciones:
 
 ## Información Importante
 
-* **Plazo**: 25 de Noviembre de 2025 .
+* **Plazo**: 28 de Noviembre de 2025 .
 * Esto corresponde a un desafío de Kaggle ([link](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)).
 * A modo de inspiración, pueden revisar notebooks públicos de otros participantes en [Kaggle Code](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code).

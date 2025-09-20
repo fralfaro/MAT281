@@ -135,8 +135,13 @@ nav:
             - Lab 03: labs/lab_03.ipynb
             - Lab 04: labs/lab_04.ipynb
             - Lab 05: labs/lab_05.ipynb
+            - Lab 06: labs/lab_06.ipynb
+            - Lab 07: labs/lab_07.ipynb
+            - Lab 08: labs/lab_08.ipynb
+            - Lab 09: labs/lab_09.ipynb
 
         - Tareas:
             - Tarea 01: homeworks/hw_01.ipynb
+            - Tarea 01: homeworks/hw_02.ipynb
         - Proyecto:
             - projects/project_definition.md
