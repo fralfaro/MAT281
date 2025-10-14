@@ -71,7 +71,7 @@ Debe incluir las siguientes secciones:
 
 ### Presentación de Resultados
 
-* Duración: 10–20 minutos.
+* Duración: 15–20 minutos.
 * Utilizar diapositivas con [BEAMER](https://www.dropbox.com/s/ol38qwzacgwzud7/Beamer.rar). Se deja el siguiente [tutorial](https://www.youtube.com/watch?v=rx7wwtmFlD8&t=792s&ab_channel=Dr.TreforBazett) a modo de ejemplo.
 * La presentación debe alojarse en su **Portafolio Personal** del curso (`.pdf`).
 
