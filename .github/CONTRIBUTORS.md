@@ -13,6 +13,7 @@ Estos son los miembros principales que han trabajado activamente en el desarroll
 - [Rodrigo Lecaros](https://www.linkedin.com/in/rodrigo-lecaros-04874926/) – Colaborador
 - [Sebastián Torres](https://www.linkedin.com/in/sebtorresle/) – Colaborador
 - [Alberto Rubio](https://www.linkedin.com/in/arubiosu/) – Colaborador
+- [Diego Jimenez](https://www.linkedin.com/in/djimenezg/) – Colaborador
 
 
 ## 💡 ¿Cómo convertirte en colaborador?
