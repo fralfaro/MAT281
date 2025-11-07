@@ -94,6 +94,7 @@ nav:
         - mat281_02.md
     - 🛠️ Toolkit:
         - lectures/toolkit/bt_intro.md
+        - lectures/toolkit/onboarding.md
         - Ecosistema Linux:
             - lectures/toolkit/linux.md
             - lectures/toolkit/bash.md
