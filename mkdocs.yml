@@ -78,6 +78,13 @@ extra:
 plugins:
   - mkdocs-jupyter:
       kernel_name: python3
+      execute: false
+      include_source: true
+      cache: true
+      cache_path: .cache/jupyter_cache
+      ignore_h1_headers: true
+      execute_ignore:
+        - "**/__init__.py"
   - search
 
 # Extra javascript
@@ -93,30 +100,27 @@ nav:
         - mat281_01.md
         - mat281_02.md
     - 🛠️ Toolkit:
-        - lectures/toolkit/bt_intro.md
-        - lectures/toolkit/onboarding.md
-        - Ecosistema Linux:
-            - lectures/toolkit/linux.md
-            - lectures/toolkit/bash.md
-            - lectures/toolkit/linux_excercises.ipynb
-        - Ecosistema Git:
-            - lectures/toolkit/git.md
-            - lectures/toolkit/github.md
-        - Ecosistema Python:
-            - lectures/toolkit/markdown.md
-            - lectures/toolkit/python.ipynb
-            - lectures/toolkit/google_colab.ipynb
-            - lectures/toolkit/ai.ipynb
+        - lectures/toolkit/github.md  
+        - lectures/toolkit/latex.md  
+        - lectures/toolkit/colab.md  
+        - lectures/toolkit/colab2.ipynb
     - 📝 Data Manipulation:
         - lectures/data_manipulation/data_intro.md
         - lectures/data_manipulation/sc_01.ipynb
         - lectures/data_manipulation/pd_01a.ipynb
         - lectures/data_manipulation/pd_01b.ipynb
-        - lectures/data_manipulation/eda_01.ipynb
     - 📊 Visualization:
         - lectures/visualization/vis_intro.md
         - lectures/visualization/vis_01.ipynb
         - lectures/visualization/vis_02.ipynb
+        - lectures/visualization/vis_03.ipynb
+        - lectures/visualization/vis_04.ipynb
+    - 📊 Statistics:
+        - lectures/statistics/stat_intro.md
+        - lectures/statistics/stat_01.ipynb
+        - lectures/statistics/stat_02.ipynb
+        - lectures/statistics/stat_03.ipynb
+        - lectures/statistics/stat_04.ipynb
     - 🤖 Machine Learning:
         - lectures/machine_learning/01_intro.ipynb
         - lectures/machine_learning/basic_01.ipynb

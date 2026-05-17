@@ -1,4 +1,4 @@
-# Onboarding Técnico
+https://github.com/fralfaro/RocheBot.git# Onboarding Técnico
 
 > **🎯 Objetivo General**:  Guiar a nuevos integrantes en la configuración inicial de su entorno técnico y en la integración con las herramientas y flujos de trabajo del equipo, asegurando una incorporación fluida y productiva.
 
