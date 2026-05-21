@@ -114,24 +114,21 @@ nav:
         - lectures/visualization/vis_01.ipynb
         - lectures/visualization/vis_02.ipynb
         - lectures/visualization/vis_03.ipynb
-        - lectures/visualization/vis_04.ipynb
     - 📊 Statistics:
         - lectures/statistics/stat_intro.md
         - lectures/statistics/stat_01.ipynb
         - lectures/statistics/stat_02.ipynb
         - lectures/statistics/stat_03.ipynb
         - lectures/statistics/stat_04.ipynb
+        - lectures/statistics/stat_05.ipynb
     - 🤖 Machine Learning:
-        - lectures/machine_learning/01_intro.ipynb
-        - lectures/machine_learning/basic_01.ipynb
-        - lectures/machine_learning/reg_01.ipynb
-        - lectures/machine_learning/reg_02.ipynb
-        - lectures/machine_learning/cla_01.ipynb
-        - lectures/machine_learning/ns_01.ipynb
-        - lectures/machine_learning/ns_02.ipynb
-        - lectures/machine_learning/over_01.ipynb
-        - lectures/machine_learning/over_02.ipynb
-        - lectures/machine_learning/ts_01.ipynb
+        - lectures/machine_learning/mle_intro.md
+        - lectures/machine_learning/mle_basic.ipynb
+        - lectures/machine_learning/mle_reg.ipynb
+        - lectures/machine_learning/mle_cla.ipynb
+        - lectures/machine_learning/mle_ns.ipynb
+        - lectures/machine_learning/mle_over.ipynb
+        - lectures/machine_learning/mle_ts.ipynb
     - ✅ Evaluations:
         - evaluation.md
         - Laboratorios:
