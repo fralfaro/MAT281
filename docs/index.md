@@ -8,10 +8,9 @@ hide:
 
 ## Descripción
 
-Este curso entrega herramientas prácticas para el análisis de datos aplicado a negocios. El foco está en manipular, visualizar y modelar datos de forma reproducible, con énfasis en la toma de decisiones basada en evidencia.
+Este curso entrega herramientas prácticas para el análisis de datos aplicado a ingeniería y negocios. Diseñado para estudiantes de carreras de ingeniería, es completamente accesible para cualquier persona interesada en trabajar con datos de forma rigurosa y reproducible, con énfasis en la toma de decisiones basada en evidencia.
 
 Durante las sesiones se trabaja con las principales herramientas del ecosistema Python para ciencia de datos: **NumPy**, **Pandas**, **Matplotlib/Seaborn** y **Scikit-learn**, complementadas con **Google Colab**, **GitHub** e **Inteligencia Artificial** como apoyo al aprendizaje.
-
 
 
 <div class="ai-tools-grid">
@@ -58,13 +57,13 @@ Durante las sesiones se trabaja con las principales herramientas del ecosistema 
         Accede al repositorio del curso con todo el material, notebooks y recursos. Crea tu cuenta en GitHub para clonar y trabajar con los contenidos.
       </p>
       <div class="github-repo">
-        <code>fralfaro/ICS40125-entregables</code>
+        <code>fralfaro/MAT281-entregables</code>
       </div>
     </div>
     <div class="card-footer">
       <div class="github-links">
         <a href="https://github.com/signup" target="_blank" class="github-btn github-btn-outline">Crear cuenta</a>
-        <a href="https://github.com/fralfaro/ICS40125-entregables" target="_blank" class="github-btn github-btn-green">Ver repositorio →</a>
+        <a href="https://github.com/fralfaro/MAT281-entregables" target="_blank" class="github-btn github-btn-green">Ver repositorio →</a>
       </div>
     </div>
   </div>
@@ -227,11 +226,14 @@ Durante las sesiones se trabaja con las principales herramientas del ecosistema 
   image: images/icons/lab.png
   url: labs/lab_01
 
+- title: Tareas
+  content: Tareas del curso
+  image: images/icons/hw.png
+  url: homeworks/hw_01.ipynb
+
 - title: Proyectos
   content: Proyectos del curso
-  image: images/icons/hw.png
+  image: images/icons/project.png
   url: projects/project_01.ipynb
-
-
 
 ::/cards::

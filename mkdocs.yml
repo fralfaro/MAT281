@@ -132,19 +132,32 @@ nav:
     - ✅ Evaluations:
         - evaluation.md
         - Laboratorios:
-            - Lab 01: labs/lab_01.ipynb
-            - Lab 02: labs/lab_02.ipynb
-            - Lab 03: labs/lab_03.ipynb
-            - Lab 04: labs/lab_04.ipynb
-            - Lab 05: labs/lab_05.ipynb
-            - Lab 06: labs/lab_06.ipynb
-            - Lab 07: labs/lab_07.ipynb
-            - Lab 08: labs/lab_08.ipynb
-            - Lab 09: labs/lab_09.ipynb
-            - Lab 10: labs/lab_10.ipynb
+            - 🛠️ Toolkit:
+                - Lab 01 · Fundamentos de Python: labs/lab_01.ipynb
+            - 📝 Data Manipulation:
+                - Lab 02 · NumPy: labs/lab_02.ipynb
+                - Lab 03 · Pandas I: labs/lab_03.ipynb
+                - Lab 04 · Pandas II: labs/lab_04.ipynb
+            - 📊 Visualization:
+                - Lab 05 · Tipos de Graficos: labs/lab_05.ipynb
+                - Lab 06 · Geoespacial: labs/lab_06.ipynb
+                - Lab 07 · Grafos: labs/lab_07.ipynb
+            - 📈 Statistics:
+                - Lab 08 · Distribuciones y TCL: labs/lab_08.ipynb
+                - Lab 09 · Pruebas de Hipotesis: labs/lab_09.ipynb
+                - Lab 10 · Intervalos de Confianza: labs/lab_10.ipynb
+                - Lab 11 · Regresion Lineal Simple: labs/lab_11.ipynb
+                - Lab 12 · Regresion Multiple: labs/lab_12.ipynb
+            - 🤖 Machine Learning:
+                - Lab 13 · Flujo Scikit-Learn: labs/lab_13.ipynb
+                - Lab 14 · Regresion: labs/lab_14.ipynb
+                - Lab 15 · Clasificacion: labs/lab_15.ipynb
+                - Lab 16 · Clustering y PCA: labs/lab_16.ipynb
+                - Lab 17 · Overfitting: labs/lab_17.ipynb
+                - Lab 18 · Series Temporales: labs/lab_18.ipynb
 
         - Tareas:
-            - Tarea 01: homeworks/hw_01.ipynb
-            - Tarea 02: homeworks/hw_02.ipynb
+            - Tarea 01 · Imágenes y Análisis de Datos: homeworks/hw_01.ipynb
+            - Tarea 02 · Análisis de Datos e Inferencia: homeworks/hw_02.ipynb
         - Proyecto:
             - projects/project_definition.md
