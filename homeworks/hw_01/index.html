@@ -3551,7 +3551,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><a href="https://colab.research.google.com/github/fralfaro/MAT281/blob/main/docs/projects/project_01.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
+<p><a href="https://colab.research.google.com/github/fralfaro/MAT281/blob/main/docs/homeworks/hw_01.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
 <h1 id="analitica-de-recursos-humanos-determinantes-salariales-y-modelacion-de-compensaciones">Analítica de Recursos Humanos: Determinantes Salariales y Modelación de Compensaciones<a class="anchor-link" href="#analitica-de-recursos-humanos-determinantes-salariales-y-modelacion-de-compensaciones">¶</a></h1><h2 id="contexto-y-objetivo">Contexto y Objetivo<a class="anchor-link" href="#contexto-y-objetivo">¶</a></h2><p>Una firma multinacional de consultoría ha sido contratada por <strong>TalentCo</strong>, empresa con operaciones en múltiples regiones y departamentos, para analizar su estructura de compensaciones. El equipo de Recursos Humanos sospecha que los salarios no están siendo asignados de manera consistente: algunos empleados se sienten subpagados en relación con pares de experiencia similar, mientras que otros en el mismo departamento perciben montos significativamente distintos según su región o nivel educacional.</p>
 <p>Su rol es actuar como <strong>Analista de Datos</strong> en la firma consultora. Utilizará Python, pruebas de hipótesis estadísticas y regresión lineal para identificar los principales determinantes del salario de los empleados, y entregará recomendaciones basadas en datos a la dirección de TalentCo.</p>
 <p>Al finalizar este proyecto, usted será capaz de:</p>
@@ -3652,7 +3652,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-1">
@@ -3668,7 +3668,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
 <span class="c1"># cargar datos</span>
-<span class="n">path</span> <span class="o">=</span> <span class="s1">'https://raw.githubusercontent.com/fralfaro/MAT281/main/docs/projects/data/employee_compensation.csv'</span>
+<span class="n">path</span> <span class="o">=</span> <span class="s1">'https://raw.githubusercontent.com/fralfaro/MAT281/main/docs/homeworks/data/employee_compensation.csv'</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">","</span> <span class="p">)</span>
 
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -3676,7 +3676,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="clipboard-copy-txt" id="cell-1">import pandas as pd
 
 # cargar datos
-path = 'https://raw.githubusercontent.com/fralfaro/MAT281/main/docs/projects/data/employee_compensation.csv'
+path = 'https://raw.githubusercontent.com/fralfaro/MAT281/main/docs/homeworks/data/employee_compensation.csv'
 df = pd.read_csv(path, sep="," )
 
 df.head()</div>
@@ -3689,9 +3689,9 @@ df.head()</div>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-f933fe77-69ee-4f21-9519-5ef7bf7df26f">
+<div class="colab-df-container" id="df-cc39b2ef-ad86-4ed5-bc63-da90e85c4903">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -3787,7 +3787,7 @@ df.head()</div>
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-f933fe77-69ee-4f21-9519-5ef7bf7df26f')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<button class="colab-df-convert" onclick="convertToInteractive('df-cc39b2ef-ad86-4ed5-bc63-da90e85c4903')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -3834,12 +3834,12 @@ df.head()</div>
   </style>
 <script>
       const buttonEl =
-        document.querySelector('#df-f933fe77-69ee-4f21-9519-5ef7bf7df26f button.colab-df-convert');
+        document.querySelector('#df-cc39b2ef-ad86-4ed5-bc63-da90e85c4903 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-f933fe77-69ee-4f21-9519-5ef7bf7df26f');
+        const element = document.querySelector('#df-cc39b2ef-ad86-4ed5-bc63-da90e85c4903');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
